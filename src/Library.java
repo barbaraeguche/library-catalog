@@ -4,11 +4,11 @@
  */
 public class Library {
     public static void main(String[] args) {
-        Catalog catalog = new Catalog(); 
+        Catalog catalog = new Catalog();
 
-        catalog.validateSyntaxAndPartition();
-        catalog.validateSemanticsAndSerialize();
-        catalog.deserializeAndNavigateCatalog();
+        // catalog.validateSyntaxAndPartition();
+        // catalog.validateSemanticsAndSerialize();
+        // catalog.deserializeAndNavigateCatalog();
 
         //total syntax and semantic errors
         int syntaxErrors = Helper.tooFewFields + Helper.tooManyFields + Helper.unknownGenre + Helper.missingFields;
@@ -16,7 +16,7 @@ public class Library {
 
         //displays the descriptive catalog outputs
         System.out.printf("""
-            --------------------------------
+            %n--------------------------------
             Here are the details after processing all the files;
             --------------------------------
             Total Books Created: %d.
@@ -37,7 +37,7 @@ public class Library {
             Helper.unknownGenre, Helper.badPrice, Helper.badIsbn10, Helper.badIsbn13, Helper.badIsbnLength, Helper.badYear);
 
         //displays the closing message
-        System.out.print("\nGood bye for now. Hope to see you sometime soon!!!");
+        System.out.print("\nGood bye for now, hope to see you sometime soon!!!");
         //delete the files
         (new Helper()).deleteFiles();
     }
