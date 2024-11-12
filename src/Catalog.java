@@ -259,7 +259,7 @@ public class Catalog {
             System.out.printf("""
 
                 -----------------------------
-                        Main Menu
+                          Main Menu
                 -----------------------------
                  v  View the selected file: %s
                  s  Select a file to view
@@ -308,7 +308,7 @@ public class Catalog {
                     System.out.printf("""
 
                         ------------------------------
-                                    File Sub-Menu
+                                File Sub-Menu
                         ------------------------------
                         1  Cartoons_Comics_Books.csv.ser         (%d records)
                         2  Hobbies_Collectibles_Books.csv.ser    (%d records)
