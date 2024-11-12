@@ -147,13 +147,13 @@ public class Helper {
 
             currentIdx = haltIdx;
             if(currentIdx + 1 == bookArray.size()) {
-                System.out.println("You have reached the end of this catalog.");
+                System.out.println("~ You have reached the end of this catalog.");
             }
         } else {
             int startIdx = Math.max(0, currentIdx + window + 1);
 
             if(startIdx == 0) {
-                System.out.println("You are at the beginning of this catalog.");
+                System.out.println("~ You are at the beginning of this catalog.");
             }
 
             for(int idx = startIdx; idx <= currentIdx; idx++) {
