@@ -4,42 +4,41 @@
  */
 public class Library {
     public static void main(String[] args) {
-        Catalog catalog = new Catalog();
-        Helper helper = new Helper();
+        Catalog catalog = new Catalog(); 
 
         catalog.validateSyntaxAndPartition();
         catalog.validateSemanticsAndSerialize();
         catalog.deserializeAndNavigateCatalog();
 
         //total syntax and semantic errors
-        int syntaxErrors = helper.tooFewFields + helper.tooManyFields + helper.unknownGenre + helper.missingFields;
-        int semanticErrors = helper.badIsbn10 + helper.badIsbn13 + helper.badIsbnLength + helper.badPrice + helper.badYear;
+        int syntaxErrors = Helper.tooFewFields + Helper.tooManyFields + Helper.unknownGenre + Helper.missingFields;
+        int semanticErrors = Helper.badIsbn10 + Helper.badIsbn13 + Helper.badIsbnLength + Helper.badPrice + Helper.badYear;
 
         //displays the descriptive catalog outputs
         System.out.printf("""
-                --------------------------------
-                Here are the details after processing all the files;
-                --------------------------------
-                Total Books Created: %d.
-                Total Syntax Errors: %d.
-                Total Semantic Errors: %d.
+            --------------------------------
+            Here are the details after processing all the files;
+            --------------------------------
+            Total Books Created: %d.
+            Total Syntax Errors: %d.
+            Total Semantic Errors: %d.
                 ----------------
-                Total TooFewFields Errors: %d.
-                Total MissingField Errors: %d.
-                Total MissingField Errors: %d.
-                Total InvalidGenre Errors: %d.
+            Total TooFewFields Errors: %d.
+            Total MissingField Errors: %d.
+            Total MissingField Errors: %d.
+            Total InvalidGenre Errors: %d.
                 ----------------
-                Total Bad Price Errors: %d.
-                Total BadISBN10 Errors: %d.
-                Total BadISBN13 Errors: %d.
-                Total BadISBNLength Errors: %d.
-                Total BadYear Errors: %d.
-                """, helper.booksCreated, syntaxErrors, semanticErrors, helper.tooFewFields, helper.tooManyFields, helper.missingFields, 
-                helper.unknownGenre, helper.badPrice, helper.badIsbn10, helper.badIsbn13, helper.badIsbnLength, helper.badYear);
+            Total Bad Price Errors: %d.
+            Total BadISBN10 Errors: %d.
+            Total BadISBN13 Errors: %d.
+            Total BadISBNLength Errors: %d.
+            Total BadYear Errors: %d.
+            """, Helper.booksCreated, syntaxErrors, semanticErrors, Helper.tooFewFields, Helper.tooManyFields, Helper.missingFields, 
+            Helper.unknownGenre, Helper.badPrice, Helper.badIsbn10, Helper.badIsbn13, Helper.badIsbnLength, Helper.badYear);
 
         //displays the closing message
-        System.out.print("\nGoodbye Mr. Booker! Hope to see you sometime later!!!");
+        System.out.print("\nGood bye for now. Hope to see you sometime soon!!!");
         //delete the files
-        helper.deleteFiles();
+        (new Helper()).deleteFiles();
     }
 }

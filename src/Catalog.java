@@ -6,18 +6,18 @@ import exceptions.*;
  * this is the catalog class. it's methods perform error cleanups, serialize, deserialize, and navigates the cleaned library catalog.
  */
 public class Catalog {
-    Helper helper;
+    Scanner scanner;
+    Book bookObj = null;
+    Helper helper = new Helper();
+    String title, author, price, isbn, genre, year;
 
     /**
      * this function validates syntax, partitions book records based on genre.
      */
     protected void validateSyntaxAndPartition() {
-        String title, author, price, isbn, genre, year = "";
-        Scanner scanner;
-
         try {
             scanner = new Scanner(new FileInputStream("filenames.txt"));  //read the main file
-            
+
             while(scanner.hasNextLine()) {
                 String bookCsv = scanner.nextLine(); //read each book{year}.csv file
                 if(bookCsv.isEmpty()) continue;
@@ -29,126 +29,58 @@ public class Catalog {
                         String bookObj = scanner.nextLine().trim();
 
                         if(bookObj.startsWith("\"")) {
-                            int firstQuote = bookObj.indexOf("\""), secondQuote = bookObj.indexOf("\"", firstQuote + 1);
+                            int quote1 = bookObj.indexOf("\""), quote2 = bookObj.indexOf("\"", quote1 + 1);
+                            
+                            title = bookObj.substring(quote1 + 1, quote2);
+                            String[] fields = bookObj.substring(quote2 + 2).split(",");
+                                                        
+                            author = fields[0]; price = fields[1]; isbn = fields[2]; genre = fields[3];
 
-                            bookObj = bookObj.substring(firstQuote + 1, secondQuote) + bookObj.substring(secondQuote + 1);
-                            System.out.println(bookObj);
+                            if(fields.length >= 5) {
+                                year = fields[4];
+                            }
+
+                            throwTooFewManyFields(fields, 5, bookObj, bookCsv);
+                        } else {
+                            String[] fields = bookObj.split(",");
+
+                            title = fields[0]; author = fields[1]; price = fields[2]; isbn = fields[3]; genre = fields[4];
+
+                            if(fields.length >= 6) {
+                                year = fields[5];
+                            }
+
+                            throwTooFewManyFields(fields, 6, bookObj, bookCsv);
                         }
 
+                        try {
+                            //missing title
+                            if(title.isBlank()) throw new MissingField("Missing Title.");
+                            //missing author
+                            else if(author.isBlank()) throw new MissingField("Missing Author.");
+                            //missing price
+                            else if(price.isBlank()) throw new MissingField("Missing Price.");
+                            //missing isbn
+                            else if(isbn.isBlank()) throw new MissingField("Missing ISBN.");
+                            //missing genre
+                            else if(genre.isBlank()) throw new MissingField("Missing Genre.");
+                            //invalid genre
+                            else if(!helper.validSyntaxFiles.containsKey(genre)) {
+                                try {
+                                    throw new UnknownGenre("Unknown Genre.");
+                                } catch(UnknownGenre excep) {
+                                    Helper.unknownGenre++;
+                                    helper.openWriter(helper.validErrorFiles.get("SYN"), helper.syntaxError(bookCsv, excep.getMessage(), bookObj));
+                                }
+                            }
+                            //missing year
+                            else if(year.isBlank()) throw new MissingField("Missing Year.");
 
-
-
-
-
-
-
-
-
-
-                    //     if(bookObj.startsWith("\"")) {
-                    //         int firstQuote = bookObj.indexOf("\""), secondQuote = bookObj.indexOf("\"", firstQuote + 1);
-                    //         title = bookObj.substring(firstQuote + 1, secondQuote);
-
-
-
-                    //         String[] withoutTitle = bookObj.substring(secondQuote + 2).split(",");
-                    //         if(withoutTitle.length < 5) {
-                    //             author = withoutTitle[0]; price = withoutTitle[1]; isbn = withoutTitle[2]; genre = withoutTitle[3];
-                    //         } else {
-                    //             author = withoutTitle[0]; price = withoutTitle[1]; isbn = withoutTitle[2]; genre = withoutTitle[3]; year = withoutTitle[4];
-                    //         }
-
-                    //         if(withoutTitle.length > 5 || bookObj.endsWith(",")) { // too many fields
-                    //             try {
-                    //                 throw new TooManyFields("Too Many Fields");
-                    //             } catch (TooManyFields e) {
-                    //                 tooManyFields++;
-                    //                 openPrintWriter(errorFiles.get("SYN"), synError(bookCsv, String.valueOf(e), bookObj));
-                    //                 continue;
-                    //             }
-                    //         } else if(withoutTitle.length < 5) { // too few fields
-                    //             try {
-                    //                 throw new TooFewFields("Too Few Fields");
-                    //             } catch (TooFewFields e) {
-                    //                 tooFewFields++;
-                    //                 openPrintWriter(errorFiles.get("SYN"), synError(bookCsv, String.valueOf(e), bookObj));
-                    //                 continue;
-                    //             }
-                    //         }
-                    //     } else {
-                    //         String[] withTitle = bookObj.split(",");
-                    //         if(withTitle.length < 6) {
-                    //             title = withTitle[0]; author = withTitle[1]; price = withTitle[2]; isbn = withTitle[3]; genre = withTitle[4];
-                    //         } else {
-                    //             title = withTitle[0]; author = withTitle[1]; price = withTitle[2]; isbn = withTitle[3]; genre = withTitle[4]; year = withTitle[5];
-                    //         }
-
-                    //         if(withTitle.length > 6 || bookObj.endsWith(",")) { // too many fields
-                    //             try {
-                    //                 throw new TooManyFields("Too Many Fields");
-                    //             } catch (TooManyFields e) {
-                    //                 tooManyFields++;
-                    //                 openPrintWriter(errorFiles.get("SYN"), synError(bookCsv, String.valueOf(e), bookObj));
-                    //                 continue;
-                    //             }
-                    //         } else if(withTitle.length < 6) { // too few fields
-                    //             try {
-                    //                 throw new TooFewFields("Too Few Fields");
-                    //             } catch (TooFewFields e) {
-                    //                 tooFewFields++;
-                    //                 openPrintWriter(errorFiles.get("SYN"), synError(bookCsv, String.valueOf(e), bookObj));
-                    //                 continue;
-                    //             }
-                    //         }
-                    //     }
-
-                    //     try {
-                    //         if(title.isBlank()) { //missing title
-                    //             throw new MissingField("Missing Title");
-                    //         } else if(author.isBlank()) { //missing author
-                    //             throw new MissingField("Missing Author");
-                    //         } else if(price.isBlank()) { //missing price
-                    //             throw new MissingField("Missing Price");
-                    //         } else if(isbn.isBlank()) { //missing isbn
-                    //             throw new MissingField("Missing ISBN");
-                    //         } else if(genre.isBlank()) { //missing genre
-                    //             throw new MissingField("Missing Genre");
-                    //         } else if(!validSyntaxFiles.containsKey(genre)) { //invalid genre
-                    //             try {
-                    //                 throw new UnknownGenre("Unknown Genre");
-                    //             } catch (UnknownGenre e) {
-                    //                 unknownGenre++;
-                    //                 openPrintWriter(errorFiles.get("SYN"), synError(bookCsv, String.valueOf(e), bookObj));
-                    //                 continue;
-                    //             }
-                    //         } else if(year.isBlank()) { //missing genre
-                    //             throw new MissingField("Missing Year");
-                    //         }
-
-                    //         openPrintWriter(validSyntaxFiles.get(genre), bookObj); // syntax-free text
-                    //     } catch (MissingField e) {
-                    //         missingFields++;
-                    //         openPrintWriter(errorFiles.get("SYN"), synError(bookCsv, String.valueOf(e), bookObj));
-                    //     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                            helper.openWriter(helper.validSyntaxFiles.get(genre), bookObj); //syntax-free text
+                        } catch(MissingField excep) {
+                            Helper.missingFields++;
+                            helper.openWriter(helper.validErrorFiles.get("SYN"), helper.syntaxError(bookCsv, excep.getMessage(), bookObj));
+                        }
                     }
                 } catch(FileNotFoundException e) {
                     System.out.println("Book file not found for reading.");
@@ -164,242 +96,242 @@ public class Catalog {
      * this function validates semantics, then serializes each list of book objects into binary files.
      */
     protected void validateSemanticsAndSerialize() {
+        List<Book> ccbSerial = new ArrayList<>(), hcbSerial = new ArrayList<>(), mtvSerial = new ArrayList<>(), mrbSerial = new ArrayList<>();
+        List<Book> nebSerial = new ArrayList<>(), otrSerial = new ArrayList<>(), ssmSerial = new ArrayList<>(), tpaSerial = new ArrayList<>();
+        
+        for(String value: helper.validSyntaxFiles.values()) {
+            try {
+                scanner = new Scanner(new FileInputStream(value));
 
+                while(scanner.hasNextLine()) {
+                    String genreText = scanner.nextLine().trim();
+
+                    if(genreText.startsWith("\"")) {
+                        int quote1 = genreText.indexOf("\""), quote2 = genreText.indexOf("\"", quote1 + 1);
+
+                        title = genreText.substring(quote1 + 1, quote2);
+                        String[] fields = genreText.substring(quote2 + 2).split(",");
+                        
+                        author = fields[0]; price = fields[1]; isbn = fields[2]; genre = fields[3]; year = fields[4];
+                    } else {
+                        String[] fields = genreText.split(",");
+
+                        title = fields[0]; author = fields[1]; price = fields[2]; isbn = fields[3]; genre = fields[4]; year = fields[5];
+                    }
+
+                    try {
+                        bookObj = new Book(title, author, Double.parseDouble(price), isbn, genre, Integer.parseInt(year));
+                    } catch(BadPrice | BadIsbn10 | BadIsbn13 | BadIsbnLength | UnknownGenre | BadYear excep) {
+                        if(excep instanceof BadPrice) Helper.badPrice++;
+                        else if(excep instanceof BadIsbn10) Helper.badIsbn10++;
+                        else if(excep instanceof BadIsbn13) Helper.badIsbn13++;
+                        else if(excep instanceof BadIsbnLength) Helper.badIsbnLength++;
+                        // else if(excep instanceof UnknownGenre) helper.unknownGenre++;
+                        else if(excep instanceof BadYear) Helper.badYear++;
+
+                        //log the semantic error
+                        helper.openWriter(helper.validErrorFiles.get("SEM"), helper.semanticError(value.substring(11), excep.getMessage(), genreText));
+                        continue;
+                    }
+                    
+                    //add all syntax-free and semantic-free book objects in their respective genre list
+                    switch(value) {
+                        case "genrefiles/Cartoons_Comics_Books.csv.txt" -> ccbSerial.add(bookObj);
+                        case "genrefiles/Hobbies_Collectibles_Books.csv.txt" -> hcbSerial.add(bookObj);
+                        case "genrefiles/Movies_TV.csv.txt" -> mtvSerial.add(bookObj);
+                        case "genrefiles/Music_Radio_Books.csv.txt" -> mrbSerial.add(bookObj);
+                        case "genrefiles/Nostalgia_Eclectic_Books.csv.txt" -> nebSerial.add(bookObj);
+                        case "genrefiles/Old_Time_Radio.csv.txt" -> otrSerial.add(bookObj);
+                        case "genrefiles/Sports_Sports_Memorabilia.csv.txt" -> ssmSerial.add(bookObj);
+                        case "genrefiles/Trains_Planes_Automobiles.csv.txt" -> tpaSerial.add(bookObj);
+                    }
+                }
+            } catch(FileNotFoundException e) {
+                System.out.println("File not found for reading.");
+            }
+        }
+
+        //serialize all lists
+        for(String key: helper.validSemanticFiles.keySet()) {
+            switch(key) {
+                case "CCB" -> helper.serializeAll(helper.validSemanticFiles.get(key), ccbSerial);
+                case "HCB" -> helper.serializeAll(helper.validSemanticFiles.get(key), hcbSerial);
+                case "MTV" -> helper.serializeAll(helper.validSemanticFiles.get(key), mtvSerial);
+                case "MRB" -> helper.serializeAll(helper.validSemanticFiles.get(key), mrbSerial);
+                case "NEB" -> helper.serializeAll(helper.validSemanticFiles.get(key), nebSerial);
+                case "OTR" -> helper.serializeAll(helper.validSemanticFiles.get(key), otrSerial);
+                case "SSM" -> helper.serializeAll(helper.validSemanticFiles.get(key), ssmSerial);
+                case "TPA" -> helper.serializeAll(helper.validSemanticFiles.get(key), tpaSerial);
+            }
+        }
     }
 
     /**
      * this function deserializes binary files into list of book objects partitioned by genre, then provides an interactive program to navigate the library catalog.
      */
     protected void deserializeAndNavigateCatalog() {
+        List<Book> ccbSerial = new ArrayList<>(), hcbSerial = new ArrayList<>(), mtvSerial = new ArrayList<>(), mrbSerial = new ArrayList<>();
+        List<Book> nebSerial = new ArrayList<>(), otrSerial = new ArrayList<>(), ssmSerial = new ArrayList<>(), tpaSerial = new ArrayList<>();
 
+        Map<String, List<Book>> bookLists = new HashMap<>();
+        String selectedFile = "";
+
+        //deserialize all lists
+        for(String keys: helper.validSemanticFiles.keySet()) {
+            switch(keys) {
+                case "CCB" -> ccbSerial = helper.deserializeAll(helper.validSemanticFiles.get(keys));
+                case "HCB" -> hcbSerial = helper.deserializeAll(helper.validSemanticFiles.get(keys));
+                case "MTV" -> mtvSerial = helper.deserializeAll(helper.validSemanticFiles.get(keys));
+                case "MRB" -> mrbSerial = helper.deserializeAll(helper.validSemanticFiles.get(keys));
+                case "NEB" -> nebSerial = helper.deserializeAll(helper.validSemanticFiles.get(keys));
+                case "OTR" -> otrSerial = helper.deserializeAll(helper.validSemanticFiles.get(keys));
+                case "SSM" -> ssmSerial = helper.deserializeAll(helper.validSemanticFiles.get(keys));
+                case "TPA" -> tpaSerial = helper.deserializeAll(helper.validSemanticFiles.get(keys));
+            }
+        }
+        Helper.booksCreated = ccbSerial.size() + hcbSerial.size() + mtvSerial.size() + mrbSerial.size() + nebSerial.size() + otrSerial.size() + ssmSerial.size() + tpaSerial.size();
+
+        bookLists.put("Cartoons_Comics_Books.csv.ser", ccbSerial);
+        bookLists.put("Hobbies_Collectibles_Books.csv.ser", hcbSerial);
+        bookLists.put("Movies_TV.csv.ser", mtvSerial);
+        bookLists.put("Music_Radio_Books.csv.ser", mrbSerial);
+        bookLists.put("Nostalgia_Eclectic_Books.csv.ser", nebSerial);
+        bookLists.put("Old_Time_Radio.csv.ser", otrSerial);
+        bookLists.put("Sports_Sports_Memorabilia.csv.ser", ssmSerial);
+        bookLists.put("Trains_Planes_Automobiles.csv.ser", tpaSerial);
+
+        // prints the welcome message
+        System.out.println("""
+            ~~~~~~~~~~~~~~~~~~~ Welcome to Library Catalog Processor ~~~~~~~~~~~~~~~~~~~
+            I will be helping you navigate through book titles, categorized by genre, as well as providing a facility for identifying and removing invalid book records :)  
+            """);
+
+        while(true) {
+            scanner = new Scanner(System.in);
+                System.out.printf("""
+                    -----------------------------
+                            Main Menu          
+                    -----------------------------
+                     v  View the selected file: %s
+                     s  Select a file to view
+                     x  Exit
+                    -----------------------------%n
+                    """, selectedFile);
+
+                //prompt the user to enter a choice from the menu above
+                System.out.print("Enter your choice: ");
+                String prompt = scanner.next().trim().toLowerCase();
+
+                //--------------------------------------------------------------------------------------------------
+                if(prompt.equals("v")) {
+                    if(selectedFile.isEmpty()) {
+                        System.out.println("No file selected.");
+                        return;
+                    }
+
+                    System.out.printf("viewing: %s%n", selectedFile);
+                    while(true) {
+                        try {
+                            System.out.print("\nEnter an integer number: ");
+                            int num = scanner.nextInt();
+
+                            if(num == 0) { 
+                                System.out.println("Viewing ended."); 
+                                break; 
+                            }
+
+                            for(String key: bookLists.keySet()) {
+                                if(key.equals(selectedFile.substring(0, selectedFile.indexOf(" ")))) {
+                                    helper.validateCommands(num, bookLists.get(key));
+                                }
+                            }
+                        } catch(InputMismatchException e) {
+                            System.out.println("Enter an integer.");
+                        }
+                    }
+                }
+
+                //--------------------------------------------------------------------------------------------------
+                else if(prompt.equals("s")) {
+                    System.out.printf("""
+                        ------------------------------
+                                File Sub-Menu         
+                        ------------------------------
+                         1  Cartoons_Comics_Books.csv.ser           (%d records)
+                         2  Hobbies_Collectibles_Books.csv.ser      (%d records)
+                         3  Movies_TV.csv.ser                       (%d records)
+                         4  Music_Radio_Books.csv.ser               (%d records)
+                         5  Nostalgia_Eclectic_Books.csv.ser        (%d records)
+                         6  Old_Time_Radio.csv.ser                  (%d records)
+                         7  Sports_Sports_Memorabilia.csv.ser       (%d records)
+                         8  Trains_Planes_Automobiles.csv.ser       (%d records)
+                         9  Exit
+                        ------------------------------%n
+                        """, ccbSerial.size(), hcbSerial.size(), mtvSerial.size(), mrbSerial.size(), nebSerial.size(), otrSerial.size(), ssmSerial.size(), tpaSerial.size());
+
+                    //prompt the user to enter a choice from the sub-menu above
+                    System.out.print("Enter your choice: ");
+                    int choice = scanner.nextInt();
+
+                    selectedFile = switch(choice) {
+                        case 1 -> String.format("Cartoons_Comics_Books.csv.ser (%d records)", ccbSerial.size());
+                        case 2 -> String.format("Hobbies_Collectibles_Books.csv.ser (%d records)", hcbSerial.size());
+                        case 3 -> String.format("Movies_TV.csv.ser (%d records)", mtvSerial.size());
+                        case 4 -> String.format("Music_Radio_Books.csv.ser (%d records)", mrbSerial.size());
+                        case 5 -> String.format("Nostalgia_Eclectic_Books.csv.ser (%d records)", nebSerial.size());
+                        case 6 -> String.format("Old_Time_Radio.csv.ser (%d records)", otrSerial.size());
+                        case 7 -> String.format("Sports_Sports_Memorabilia.csv.ser (%d records)", ssmSerial.size());
+                        case 8 -> String.format("Trains_Planes_Automobiles.csv.ser (%d records)", tpaSerial.size());
+                        case 9 -> {
+                            System.out.println("File sub-menu exited.\n");
+                            yield "";
+                        }
+                        default -> {
+                            System.out.println("Sorry that is not a valid choice. Try again.\n");
+                            yield "";
+                        }
+                    };
+                }
+
+                //--------------------------------------------------------------------------------------------------
+                else if(prompt.equals("x")) { 
+                    System.out.println("Interactive main menu terminated.\n"); 
+                    break; 
+                }
+
+                //--------------------------------------------------------------------------------------------------
+                else { 
+                    System.out.println("Sorry that is not a valid choice, try again."); 
+                }
+            scanner.close();
+        }
+    }
+
+
+    // ~~~~~~~~~~~~~~~~~~~~~~~~ helper functions ~~~~~~~~~~~~~~~~~~~~~~~~ //
+    /**
+     * this function handles the validation of field counts and logs errors if necessary.
+     * @param fields the array of fields to validate.
+     * @param expectedLength the expected number of fields.
+     * @param bookObj the original string of fields.
+     * @param bookCsv the .csv file name where the field was found.
+     * @throws FileNotFoundException if the file can not be found.
+     */
+    private void throwTooFewManyFields(String[] fields, int expectedLength, String bookObj, String bookCsv) throws FileNotFoundException {
+        boolean tooMany = fields.length > expectedLength || bookObj.endsWith(",");
+        boolean tooFew = fields.length < expectedLength;
+
+        if(tooMany || tooFew) {
+            String exceptionMsg = tooMany? "Too Many Fields." : "Too Few Fields.";
+
+            if(tooMany) Helper.tooManyFields++;
+            else Helper.tooFewFields++;
+
+            try {
+                throw tooMany? new TooManyFields(exceptionMsg) : new TooFewFields(exceptionMsg);
+            } catch(Exception excep) {
+                helper.openWriter(helper.validErrorFiles.get("SYN"), helper.syntaxError(bookCsv, excep.getMessage(), bookObj));
+            }
+        }  
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**
-//      * This function validates semantics, reads each genre files into lists of Book objects, then serializes each lists into binary files.
-//      */
-//     private static void do_part2() {
-//         ArrayList<Book> ccbSerial = new ArrayList<>(), hcbSerial = new ArrayList<>(), mtvSerial = new ArrayList<>(), mrbSerial = new ArrayList<>(),
-//                 nebSerial = new ArrayList<>(), otrSerial = new ArrayList<>(), ssmSerial = new ArrayList<>(), tpaSerial = new ArrayList<>();
-//         Scanner scan; Book book = null; String title, author, price, isbn, genre, year;
-
-//         for(String value: validSyntaxFiles.values()) {
-//             try {
-//                 scan = new Scanner(new FileInputStream(value));
-
-//                 while(scan.hasNextLine()) {
-//                     String line = scan.nextLine().trim();
-
-//                     if(line.startsWith("\"")) {  //line does not start with quotation marks, so just split at each comma(,)
-//                         int firstQuote = line.indexOf("\"");
-//                         int secondQuote = line.indexOf("\"", firstQuote + 1);
-
-//                         title = line.substring(firstQuote + 1, secondQuote);
-//                         String[] withoutTitle = line.substring(secondQuote + 2).split(",");
-//                         author = withoutTitle[0]; price = withoutTitle[1]; isbn = withoutTitle[2]; genre = withoutTitle[3]; year = withoutTitle[4];
-//                     } else {
-//                         String[] withTitle = line.split(",");
-//                         title = withTitle[0]; author = withTitle[1]; price = withTitle[2]; isbn = withTitle[3]; genre = withTitle[4]; year = withTitle[5];
-//                     }
-
-//                     try {
-//                         book = new Book(title, author, Double.parseDouble(price), isbn, genre, Integer.parseInt(year));
-//                     } catch (BadPrice e) {
-//                         badPrice++;
-//                         openPrintWriter(errorFiles.get("SEM"), semError(value.substring(12), String.valueOf(e), line));
-//                         continue;
-//                     } catch (BadIsbn10 e) {
-//                         badIsbn10++;
-//                         openPrintWriter(errorFiles.get("SEM"), semError(value.substring(12), String.valueOf(e), line));
-//                         continue;
-//                     } catch (BadIsbn13 e) {
-//                         badIsbn13++;
-//                         openPrintWriter(errorFiles.get("SEM"), semError(value.substring(12), String.valueOf(e), line));
-//                         continue;
-//                     } catch (BadIsbnLength e) {
-//                         badIsbnLength++;
-//                         openPrintWriter(errorFiles.get("SEM"), semError(value.substring(12), String.valueOf(e), line));
-//                         continue;
-//                     } catch (UnknownGenre e) {
-//                         // already handled
-//                     } catch (BadYear e) {
-//                         badYear++;
-//                         openPrintWriter(errorFiles.get("SEM"), semError(value.substring(12), String.valueOf(e), line));
-//                         continue;
-//                     }
-
-//                     switch(value) {  //add all syntax-free and semantic-free Book objects in their respective genre list
-//                         case "mytextfiles/Cartoons_Comics_Books.csv.txt" -> ccbSerial.add(book);
-//                         case "mytextfiles/Hobbies_Collectibles_Books.csv.txt" -> hcbSerial.add(book);
-//                         case "mytextfiles/Movies_TV.csv.txt" -> mtvSerial.add(book);
-//                         case "mytextfiles/Music_Radio_Books.csv.txt" -> mrbSerial.add(book);
-//                         case "mytextfiles/Nostalgia_Eclectic_Books.csv.txt" -> nebSerial.add(book);
-//                         case "mytextfiles/Old_Time_Radio.csv.txt" -> otrSerial.add(book);
-//                         case "mytextfiles/Sports_Sports_Memorabilia.csv.txt" -> ssmSerial.add(book);
-//                         case "mytextfiles/Trains_Planes_Automobiles.csv.txt" -> tpaSerial.add(book);
-//                     }
-//                 }
-//             } catch(FileNotFoundException e) {
-//                 System.out.println("File not found for reading.");
-//             }
-//         }
-
-//         for(String keys: validSemanticSerFiles.keySet()) {  //serialize all lists
-//             switch(keys) {
-//                 case "CCB" -> serializeAll(validSemanticSerFiles.get(keys), ccbSerial);
-//                 case "HCB" -> serializeAll(validSemanticSerFiles.get(keys), hcbSerial);
-//                 case "MTV" -> serializeAll(validSemanticSerFiles.get(keys), mtvSerial);
-//                 case "MRB" -> serializeAll(validSemanticSerFiles.get(keys), mrbSerial);
-//                 case "NEB" -> serializeAll(validSemanticSerFiles.get(keys), nebSerial);
-//                 case "OTR" -> serializeAll(validSemanticSerFiles.get(keys), otrSerial);
-//                 case "SSM" -> serializeAll(validSemanticSerFiles.get(keys), ssmSerial);
-//                 case "TPA" -> serializeAll(validSemanticSerFiles.get(keys), tpaSerial);
-//             }
-//         }
-//     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-//     /**
-//      * This function reads the binary files, deserializes each file into a corresponding genre list, and then provides an interactive program to allow the user to navigate the arrays.
-//      */
-//     private static void do_part3() {
-//         List<Book> ccbSerial = new ArrayList<>(), hcbSerial = new ArrayList<>(),  mtvSerial = new ArrayList<>(), mrbSerial = new ArrayList<>(),
-//                 nebSerial = new ArrayList<>(), otrSerial = new ArrayList<>(), ssmSerial = new ArrayList<>(), tpaSerial = new ArrayList<>();
-//         Scanner scan = new Scanner(System.in); String selectedFile = "";
-
-//         for(String keys: validSemanticSerFiles.keySet()) {  //deserialize all lists
-//             switch(keys) {
-//                 case "CCB" -> ccbSerial = deserializeAll(validSemanticSerFiles.get(keys));
-//                 case "HCB" -> hcbSerial = deserializeAll(validSemanticSerFiles.get(keys));
-//                 case "MTV" -> mtvSerial = deserializeAll(validSemanticSerFiles.get(keys));
-//                 case "MRB" -> mrbSerial = deserializeAll(validSemanticSerFiles.get(keys));
-//                 case "NEB" -> nebSerial = deserializeAll(validSemanticSerFiles.get(keys));
-//                 case "OTR" -> otrSerial = deserializeAll(validSemanticSerFiles.get(keys));
-//                 case "SSM" -> ssmSerial = deserializeAll(validSemanticSerFiles.get(keys));
-//                 case "TPA" -> tpaSerial = deserializeAll(validSemanticSerFiles.get(keys));
-//             }
-//         }
-//         booksCreated = ccbSerial.size() + hcbSerial.size() + mtvSerial.size() + mrbSerial.size() + nebSerial.size()
-//                 + otrSerial.size() + ssmSerial.size() + tpaSerial.size();
-
-//         Map<String, List<Book>> allLists = new HashMap<>();
-//         allLists.put("Cartoons_Comics_Books.csv.ser", ccbSerial);
-//         allLists.put("Hobbies_Collectibles_Books.csv.ser", hcbSerial);
-//         allLists.put("Movies_TV.csv.ser", mtvSerial);
-//         allLists.put("Music_Radio_Books.csv.ser", mrbSerial);
-//         allLists.put("Nostalgia_Eclectic_Books.csv.ser", nebSerial);
-//         allLists.put("Old_Time_Radio.csv.ser", otrSerial);
-//         allLists.put("Sports_Sports_Memorabilia.csv.ser", ssmSerial);
-//         allLists.put("Trains_Planes_Automobiles.csv.ser", tpaSerial);
-
-//         // prints the welcome message
-//         System.out.println("""
-//                 \n~~~~~ WELCOME, MR. BOOKER! ~~~~~
-//                 I will be helping you navigate through your book titles, categorized by genre, as well as providing a facility for identifying and removing invalid book records :)""");
-
-//         while(true) {
-//             System.out.println("\n----------------------------- \n          Main Menu          \n-----------------------------");
-//             System.out.printf(" v  View the selected file: %s", selectedFile);
-//             System.out.println("\n s  Select a file to view");
-//             System.out.println(" x  Exit");
-//             System.out.println("-----------------------------");
-
-//             //prompting user to enter a choice from the menu above
-//             System.out.print("Enter Your Choice: ");
-//             String code = scan.next();
-
-//             //--------------------------------------------------------------------------------------------------
-//             if(code.equals("v")) {
-//                 if(selectedFile.isEmpty()) System.out.println("No file selected.");
-//                 else {
-//                     System.out.printf("viewing: %s", selectedFile);
-//                     while(true) {
-//                         try {
-//                             System.out.print("\n\nEnter an integer number: ");
-//                             int n = scan.nextInt();
-
-//                             if(n == 0) { System.out.println("Viewing ended."); break; }
-//                             else {
-//                                 for(String key: allLists.keySet()) {
-//                                     if(key.equals(selectedFile.substring(0, selectedFile.indexOf(" ")))) {
-//                                         validateCommands(n, allLists.get(key));
-//                                     }
-//                                 }
-//                             }
-//                         } catch(InputMismatchException e) {
-//                             System.out.println("Enter an integer.");
-//                         }
-//                     }
-//                 }
-//             }
-
-//             //--------------------------------------------------------------------------------------------------
-//             else if(code.equals("s")) {
-//                 System.out.println("\n------------------------------ \n        File Sub-Menu          \n------------------------------");
-//                 System.out.printf(" 1  Cartoons_Comics_Books.csv.ser           (%d records)", ccbSerial.size());
-//                 System.out.printf("\n 2  Hobbies_Collectibles_Books.csv.ser      (%d records)", hcbSerial.size());
-//                 System.out.printf("\n 3  Movies_TV.csv.ser                       (%d records)", mtvSerial.size());
-//                 System.out.printf("\n 4  Music_Radio_Books.csv.ser               (%d records)", mrbSerial.size());
-//                 System.out.printf("\n 5  Nostalgia_Eclectic_Books.csv.ser        (%d records)", nebSerial.size());
-//                 System.out.printf("\n 6  Old_Time_Radio.csv.ser                  (%d records)", otrSerial.size());
-//                 System.out.printf("\n 7  Sports_Sports_Memorabilia.csv.ser       (%d records)", ssmSerial.size());
-//                 System.out.printf("\n 8  Trains_Planes_Automobiles.csv.ser       (%d records)", tpaSerial.size());
-//                 System.out.println("\n 9  Exit");
-//                 System.out.println("------------------------------");
-
-//                 //prompting user to enter a choice from the menu above
-//                 System.out.print("Enter Your Choice: ");
-//                 int choice = scan.nextInt();
-
-//                 if(choice == 1) { selectedFile = String.format("Cartoons_Comics_Books.csv.ser (%d records)", ccbSerial.size()); }
-//                 else if(choice == 2) { selectedFile = String.format("Hobbies_Collectibles_Books.csv.ser (%d records)", hcbSerial.size()); }
-//                 else if(choice == 3) { selectedFile = String.format("Movies_TV.csv.ser (%d records)", mtvSerial.size()); }
-//                 else if(choice == 4) { selectedFile = String.format("Music_Radio_Books.csv.ser (%d records)", mrbSerial.size()); }
-//                 else if(choice == 5) { selectedFile = String.format("Nostalgia_Eclectic_Books.csv.ser (%d records)", nebSerial.size()); }
-//                 else if(choice == 6) { selectedFile = String.format("Old_Time_Radio.csv.ser (%d records)", otrSerial.size()); }
-//                 else if(choice == 7) { selectedFile = String.format("Sports_Sports_Memorabilia.csv.ser (%d records)", ssmSerial.size()); }
-//                 else if(choice == 8) { selectedFile = String.format("Trains_Planes_Automobiles.csv.ser (%d records)", tpaSerial.size()); }
-//                 else if(choice == 9) { System.out.println("File Sub-Menu Exited"); break; }
-//                 else { System.out.println("Sorry that is an invalid choice. Try again.\n"); }
-//             }
-
-//             //--------------------------------------------------------------------------------------------------
-//             else if(code.equals("x")) { System.out.println("Interactive Main Menu terminated.\n"); break; }
-
-//             //--------------------------------------------------------------------------------------------------
-//             else { System.out.println("Sorry that is an invalid choice. Try again."); }
-//         }
-//     }

@@ -6,26 +6,24 @@ import java.io.*;
  */
 public class Helper {
     //variables for tracking errors
-    protected int tooFewFields = 0, tooManyFields = 0, missingFields = 0, unknownGenre = 0;
-    protected int badPrice = 0, badIsbn10 = 0, badIsbn13 = 0, badIsbnLength = 0, badYear = 0;
-    protected int current = 0, index = 0, number = 0, booksCreated = 0;
-    protected static String bookFiles = "bookfiles/", serializedFiles = "serialized/", errorFiles = "errorfiles/";
+    protected static int tooFewFields = 0, tooManyFields = 0, missingFields = 0, unknownGenre = 0;
+    protected static int badPrice = 0, badIsbn10 = 0, badIsbn13 = 0, badIsbnLength = 0, badYear = 0;
+    protected static int current = 0, index = 0, number = 0, booksCreated = 0;
+    protected static String genreFiles = "genrefiles/", serializedFiles = "serialized/", errorFiles = "errorfiles/";
     
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
-    protected static final Map<String, String> validSyntaxFiles = new HashMap<>();
-    static {
-        validSyntaxFiles.put("CCB", bookFiles + "Cartoons_Comics_Books.csv.txt");
-        validSyntaxFiles.put("HCB", bookFiles + "Hobbies_Collectibles_Books.csv.txt");
-        validSyntaxFiles.put("MTV", bookFiles + "Movies_TV.csv.txt");
-        validSyntaxFiles.put("MRB", bookFiles + "Music_Radio_Books.csv.txt");
-        validSyntaxFiles.put("NEB", bookFiles + "Nostalgia_Eclectic_Books.csv.txt");
-        validSyntaxFiles.put("OTR", bookFiles + "Old_Time_Radio.csv.txt");
-        validSyntaxFiles.put("SSM", bookFiles + "Sports_Sports_Memorabilia.csv.txt");
-        validSyntaxFiles.put("TPA", bookFiles + "Trains_Planes_Automobiles.csv.txt");
+    protected final Map<String, String> validSyntaxFiles = new HashMap<>(); {
+        validSyntaxFiles.put("CCB", genreFiles + "Cartoons_Comics_Books.csv.txt");
+        validSyntaxFiles.put("HCB", genreFiles + "Hobbies_Collectibles_Books.csv.txt");
+        validSyntaxFiles.put("MTV", genreFiles + "Movies_TV.csv.txt");
+        validSyntaxFiles.put("MRB", genreFiles + "Music_Radio_Books.csv.txt");
+        validSyntaxFiles.put("NEB", genreFiles + "Nostalgia_Eclectic_Books.csv.txt");
+        validSyntaxFiles.put("OTR", genreFiles + "Old_Time_Radio.csv.txt");
+        validSyntaxFiles.put("SSM", genreFiles + "Sports_Sports_Memorabilia.csv.txt");
+        validSyntaxFiles.put("TPA", genreFiles + "Trains_Planes_Automobiles.csv.txt");
     }
     
-    protected static final Map<String, String> validSemanticFiles = new HashMap<>();
-    static {
+    protected final Map<String, String> validSemanticFiles = new HashMap<>(); {
         validSemanticFiles.put("CCB", serializedFiles + "Cartoons_Comics_Books.csv.ser");
         validSemanticFiles.put("HCB", serializedFiles + "Hobbies_Collectibles_Books.csv.ser");
         validSemanticFiles.put("MTV", serializedFiles + "Movies_TV.csv.ser");
@@ -36,20 +34,19 @@ public class Helper {
         validSemanticFiles.put("TPA", serializedFiles + "Trains_Planes_Automobiles.csv.ser");
     }
     
-    protected static final Map<String, String> validErrorFiles = new HashMap<>();
-    static {
+    protected final Map<String, String> validErrorFiles = new HashMap<>(); {
         validErrorFiles.put("SYN", errorFiles + "syntaxError.txt");
         validErrorFiles.put("SEM", errorFiles + "semanticError.txt");
     }
     
-    protected static final List<Map<String, String>> toDelete = new ArrayList<>();
-    static {
+    protected final List<Map<String, String>> toDelete = new ArrayList<>(); {
         toDelete.add(validSyntaxFiles);
         toDelete.add(validSemanticFiles);
         toDelete.add(validErrorFiles);
     }
 
 
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
     /**
      * this method writes the syntax error message to the specified file.
      * @param file the file where the syntax error was caught.
@@ -88,7 +85,7 @@ public class Helper {
      * @param file the file where the serialized text goes.
      * @param array an array of book objects to serialize.
      */
-    protected void serializeAll(String file, ArrayList<Book> array) {
+    protected void serializeAll(String file, List<Book> array) {
         try(ObjectOutputStream outStream = new ObjectOutputStream(new FileOutputStream(file))) {
             outStream.writeObject(array);
             outStream.flush();
