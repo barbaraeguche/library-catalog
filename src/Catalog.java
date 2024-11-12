@@ -7,11 +7,10 @@ import exceptions.*;
  * deserialize, and navigates the cleaned library catalog.
  */
 public class Catalog {
-    Scanner mainScanner, scanner;
     Book bookObj = null;
+    Scanner mainScanner, scanner;
     Helper helper = new Helper();
     String title, author, price, isbn, genre, year;
-    int nonError = 0;
 
     /**
      * this function validates syntax, partitions book records based on genre.
@@ -248,12 +247,11 @@ public class Catalog {
         bookLists.put("Trains_Planes_Automobiles.csv.ser", tpaSerial);
 
         // prints the welcome message
-        System.out
-                .print("""
+        System.out.print("""
 
-                        ~~~~~~~~~~~~~~~~~~~ Welcome to Library Catalog Processor ~~~~~~~~~~~~~~~~~~~
-                        I will be helping you navigate through book titles, categorized by genre, as well as providing a facility for identifying and removing invalid book records :)
-                        """);
+            ~~~~~~~~~~~~~~~~~~~ Welcome to Library Catalog Processor ~~~~~~~~~~~~~~~~~~~
+            I will be helping you navigate through book titles, categorized by genre, as well as providing a facility for identifying and removing invalid book records :)
+            """);
 
         while(true) {
             mainScanner = new Scanner(System.in);

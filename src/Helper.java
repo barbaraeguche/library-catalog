@@ -8,7 +8,7 @@ public class Helper {
     //variables for tracking errors
     protected static int tooFewFields = 0, tooManyFields = 0, missingFields = 0, unknownGenre = 0;
     protected static int badPrice = 0, badIsbn10 = 0, badIsbn13 = 0, badIsbnLength = 0, badYear = 0;
-    protected static int current = 0, booksCreated = 0;
+    protected static int currentIdx = 0, haltIdx = 0, reverseWndw = 0, booksCreated = 0;
     protected static String genreFiles = "genrefiles/", serializedFiles = "serialized/", errorFiles = "errorfiles/";
     
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
@@ -140,30 +140,27 @@ public class Helper {
      */
     protected void validateSearch(int window, List<Book> bookArray) {
         if(window > 0) {
-            int endIndex = Math.min(current + window, bookArray.size());
-
-            for(int idx = current; idx < endIndex; idx++) {
+            for(int idx = currentIdx; idx < (currentIdx + window) && idx < bookArray.size(); idx++) {
                 System.out.print(bookArray.get(idx));
+                haltIdx = idx;
             }
-            
-            //update current position to the last index viewed
-            current = endIndex - 1;
-            if(current + 1 >= bookArray.size()) {
-                System.out.println("~~ You have reached the end of this catalog.");
+
+            currentIdx = haltIdx;
+            if(currentIdx + 1 == bookArray.size()) {
+                System.out.println("You have reached the end of this catalog.");
             }
         } else {
-            int startIndex = Math.max(0, current + window + 1);
-        
-            if(startIndex == 0) {
-                System.out.println("~~ You are at the beginning of this catalog.");
+            int startIdx = Math.max(0, currentIdx + window + 1);
+
+            if(startIdx == 0) {
+                System.out.println("You are at the beginning of this catalog.");
             }
-            
-            for(int idx = startIndex; idx <= current; idx++) {
+
+            for(int idx = startIdx; idx <= currentIdx; idx++) {
                 System.out.print(bookArray.get(idx));
+                haltIdx = startIdx;
             }
-            
-            //update current position to the first index viewed
-            current = startIndex;
+            currentIdx = haltIdx;
         }
     }
 
