@@ -269,7 +269,7 @@ public class Catalog {
                 -----------------------------
                 """, selectedFile);
 
-            // prompt the user to enter a choice from the menu above
+            //prompt the user to enter a choice from the menu above
             System.out.print("Enter your choice: ");
             String prompt = mainScanner.next().trim().toLowerCase();
 
@@ -293,7 +293,7 @@ public class Catalog {
 
                         for(String key : bookLists.keySet()) {
                             if(key.equals(selectedFile.substring(0, selectedFile.indexOf(" ")))) {
-                                helper.validateCommands(num, bookLists.get(key));
+                                helper.validateSearch(num, bookLists.get(key));
                             }
                         }
                     } catch(InputMismatchException e) {
@@ -305,47 +305,54 @@ public class Catalog {
             // --------------------------------------------------------------------------------------------------
             else if(prompt.equals("s")) {
                 scanner = new Scanner(System.in);
-                    
-                System.out.printf("""
+                
+                do {
+                    System.out.printf("""
 
-                    ------------------------------
-                                File Sub-Menu
-                    ------------------------------
-                     1  Cartoons_Comics_Books.csv.ser         (%d records)
-                     2  Hobbies_Collectibles_Books.csv.ser    (%d records)
-                     3  Movies_TV.csv.ser                     (%d records)
-                     4  Music_Radio_Books.csv.ser             (%d records)
-                     5  Nostalgia_Eclectic_Books.csv.ser      (%d records)
-                     6  Old_Time_Radio.csv.ser                (%d records)
-                     7  Sports_Sports_Memorabilia.csv.ser     (%d records)
-                     8  Trains_Planes_Automobiles.csv.ser     (%d records)
-                     9  Exit
-                    ------------------------------
-                    """, ccbSerial.size(), hcbSerial.size(), mtvSerial.size(), mrbSerial.size(), nebSerial.size(),
-                    otrSerial.size(), ssmSerial.size(), tpaSerial.size());
+                        ------------------------------
+                                    File Sub-Menu
+                        ------------------------------
+                        1  Cartoons_Comics_Books.csv.ser         (%d records)
+                        2  Hobbies_Collectibles_Books.csv.ser    (%d records)
+                        3  Movies_TV.csv.ser                     (%d records)
+                        4  Music_Radio_Books.csv.ser             (%d records)
+                        5  Nostalgia_Eclectic_Books.csv.ser      (%d records)
+                        6  Old_Time_Radio.csv.ser                (%d records)
+                        7  Sports_Sports_Memorabilia.csv.ser     (%d records)
+                        8  Trains_Planes_Automobiles.csv.ser     (%d records)
+                        9  Exit
+                        ------------------------------
+                        """, ccbSerial.size(), hcbSerial.size(), mtvSerial.size(), mrbSerial.size(), nebSerial.size(),
+                        otrSerial.size(), ssmSerial.size(), tpaSerial.size());
 
-                // prompt the user to enter a choice from the sub-menu above
-                System.out.print("Enter your choice: ");
-                int choice = scanner.nextInt();
+                    try {
+                        //prompt the user to enter a choice from the sub-menu above
+                        System.out.print("Enter your choice: ");
+                        int choice = scanner.nextInt();
 
-                selectedFile = switch (choice) {
-                    case 1 -> String.format("Cartoons_Comics_Books.csv.ser (%d records)", ccbSerial.size());
-                    case 2 -> String.format("Hobbies_Collectibles_Books.csv.ser (%d records)", hcbSerial.size());
-                    case 3 -> String.format("Movies_TV.csv.ser (%d records)", mtvSerial.size());
-                    case 4 -> String.format("Music_Radio_Books.csv.ser (%d records)", mrbSerial.size());
-                    case 5 -> String.format("Nostalgia_Eclectic_Books.csv.ser (%d records)", nebSerial.size());
-                    case 6 -> String.format("Old_Time_Radio.csv.ser (%d records)", otrSerial.size());
-                    case 7 -> String.format("Sports_Sports_Memorabilia.csv.ser (%d records)", ssmSerial.size());
-                    case 8 -> String.format("Trains_Planes_Automobiles.csv.ser (%d records)", tpaSerial.size());
-                    case 9 -> {
-                        System.out.println("File sub-menu exited.\n");
-                        yield "";
+                        selectedFile = switch(choice) {
+                            case 1 -> String.format("Cartoons_Comics_Books.csv.ser (%d records)", ccbSerial.size());
+                            case 2 -> String.format("Hobbies_Collectibles_Books.csv.ser (%d records)", hcbSerial.size());
+                            case 3 -> String.format("Movies_TV.csv.ser (%d records)", mtvSerial.size());
+                            case 4 -> String.format("Music_Radio_Books.csv.ser (%d records)", mrbSerial.size());
+                            case 5 -> String.format("Nostalgia_Eclectic_Books.csv.ser (%d records)", nebSerial.size());
+                            case 6 -> String.format("Old_Time_Radio.csv.ser (%d records)", otrSerial.size());
+                            case 7 -> String.format("Sports_Sports_Memorabilia.csv.ser (%d records)", ssmSerial.size());
+                            case 8 -> String.format("Trains_Planes_Automobiles.csv.ser (%d records)", tpaSerial.size());
+                            case 9 -> {
+                                System.out.println("File sub-menu exited.");
+                                yield "";
+                            }
+                            default -> {
+                                System.out.println("Sorry that is not a valid choice, try again.");
+                                yield "none";
+                            }
+                        };
+                    } catch(InputMismatchException e) {
+                        System.out.println("Enter an integer.");
+                        break;
                     }
-                    default -> {
-                        System.out.println("Sorry that is not a valid choice. Try again.\n");
-                        yield "";
-                    }
-                };
+                } while("none".equals(selectedFile));
             }
 
             // --------------------------------------------------------------------------------------------------

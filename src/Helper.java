@@ -8,7 +8,7 @@ public class Helper {
     //variables for tracking errors
     protected static int tooFewFields = 0, tooManyFields = 0, missingFields = 0, unknownGenre = 0;
     protected static int badPrice = 0, badIsbn10 = 0, badIsbn13 = 0, badIsbnLength = 0, badYear = 0;
-    protected static int current = 0, index = 0, number = 0, booksCreated = 0;
+    protected static int current = 0, booksCreated = 0;
     protected static String genreFiles = "genrefiles/", serializedFiles = "serialized/", errorFiles = "errorfiles/";
     
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
@@ -138,43 +138,32 @@ public class Helper {
      * @param window the user input.
      * @param bookArray an arraylist containing the deserialized book objects.
      */
-    protected void validateCommands(int window, List<Book> bookArray) {
+    protected void validateSearch(int window, List<Book> bookArray) {
         if(window > 0) {
-            try {
-                for(int idx = current; idx < current + window; idx++) {
-                    System.out.print(bookArray.get(idx));
-                    index = idx;
-                }
-                current = index;
-            } catch(ArrayIndexOutOfBoundsException outOfBounds) {
-                current = index;
-                System.out.println("You have reached the end of this catalog.");
+            int endIndex = Math.min(current + window, bookArray.size());
+
+            for(int idx = current; idx < endIndex; idx++) {
+                System.out.print(bookArray.get(idx));
+            }
+            
+            //update current position to the last index viewed
+            current = endIndex - 1;
+            if(current + 1 >= bookArray.size()) {
+                System.out.println("~~ You have reached the end of this catalog.");
             }
         } else {
-            try {
-                if(current == 0) throw new ArrayIndexOutOfBoundsException();
-                number = current + window + 1;
-
-                if(number < 0) {
-                    System.out.println("You are at the beginning of this catalog.");
-                    
-                    for(int idx = 0; idx <= current; idx++) {
-                        System.out.print(bookArray.get(idx));
-                        index = 0;
-                    }
-                } else {
-                    for(int idx = number; idx <= current; idx++) {
-                        System.out.print(bookArray.get(idx));
-                        index = number;
-                    }
-                }
-                
-                current = index;
-            } catch(ArrayIndexOutOfBoundsException outOfBounds) {
-                current = 0;
-                System.out.println("You are at the beginning of this catalog.");
-                System.out.println(bookArray.get(current));
+            int startIndex = Math.max(0, current + window + 1);
+        
+            if(startIndex == 0) {
+                System.out.println("~~ You are at the beginning of this catalog.");
             }
+            
+            for(int idx = startIndex; idx <= current; idx++) {
+                System.out.print(bookArray.get(idx));
+            }
+            
+            //update current position to the first index viewed
+            current = startIndex;
         }
     }
 
