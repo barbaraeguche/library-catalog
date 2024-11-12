@@ -30,7 +30,7 @@ java Library
 
 ## gallery 📸
 <details>
-  <summary>showcase</summary> <br>
+  <summary>showcase</summary>
 
   - **main menu**
 
