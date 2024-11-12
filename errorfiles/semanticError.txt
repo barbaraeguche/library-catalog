@@ -1,0 +1,2592 @@
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Comics Buyer's Guide Standard Catalog of Comic Books,John Jackson Miller & Maggie Thompson & Peter Bickford & Brent Frankenhoff,24.95,087349993X,CCB,2005
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Private Eyes In the Comics,John A. Dinan,9.95,159393002X,CCB,2005
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Bad Price.
+Record: Superman - The Complete History,Lee Daniels,-12.95,0811842312,CCB,2005
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Worlds of Tomorrow - The Amazing Universe of Science Fiction Art,Forrest J. Ackerman & Brad Linaweaver,29.95,188805493X,CCB,2006
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Blondie - The Bumstead Family History,Dean Young & Melena Ryzik,24.95,140160322X,CCB,2007
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Manga Monster Madness,David Okum,16.95,158180606X,CCB,2009
+
+
+File: Trains_Planes_Automobiles.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Mustang,David Newhardt,4.95,076031389X,TPA,2005
+
+
+File: Trains_Planes_Automobiles.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Retro Ride,Tony Swan,14.95,188805462X,TPA,2005
+
+
+File: Trains_Planes_Automobiles.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Corvette - Definitive Guide To The All-American Sports Car,Andrew Montgomery,14.95,159223061X,TPA,2006
+
+
+File: Hobbies_Collectibles_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Christie's Century of Teddy Bears,Leyla Maniera,19.95,082300645X,HCB,2005
+
+
+File: Hobbies_Collectibles_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Monroe, Marilyn Collectibles",Clark Kidder,2.95,038079909X,HCB,2005
+
+
+File: Hobbies_Collectibles_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Antique Trader Collectible Paperback Price Guide,Gary Lovisi,16.95,089689634X,HCB,2009
+
+
+File: Hobbies_Collectibles_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Warman's Coca-Cola Collectibles Identification & Price Guide,Allan Petretti,19.95,0898693111,HCB,2009
+
+
+File: Nostalgia_Eclectic_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Celebrity Skin - Tattoos, Brands, And Body Adornments of The Stars",Jim Gerard,6.95,1160253231,NEB,2005
+
+
+File: Nostalgia_Eclectic_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Zippo - An American Legend,Avi R. Baer & Alexander Neumark,12.95,076240700X,NEB,2005
+
+
+File: Nostalgia_Eclectic_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Uleta Blues & Haikus,Paul Gleason,12.95,0894078146,NEB,2006
+
+
+File: Nostalgia_Eclectic_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Big Shots - The Men Behind The Booze,A.J. Baime & A. J. Baime,4.95,045120980X,NEB,2007
+
+
+File: Nostalgia_Eclectic_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Pees On Earth,Erica Jong & Annie Sprinkle,24.95,157687317X,NEB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Year.
+Record: "Zimbalist, Efrem - A Life",Roy Malan,19.95,1574670913,MRB,1905
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Year.
+Record: "Mingus, Charles - Mingus / Mingus: Two Memoirs",Janet Coleman & Al Young,7.95,0879101490,MRB,1994
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Madonna - Goddess: Inside Madonna,Barbara Victor,4.95,006019930X,MRB,2001
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Price.
+Record: Beatles - Quarrymen,Hunter Davies,-4.95,071198526X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Beatles - Ticket To Ride: Inside The Beatles' 1964 Tour That Changed The World,Larry Kane,5.95,014303426X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Billboard Guide To Progressive Music,Bradley Smith,1.99,0823176652,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Clash - Complete Guide To Their Music,Tony Fletcher,4.95,184449506X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Clash - Return of The Last Gang In Town,Marcus Gray,14.95,063408240X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Gatton, Danny - Unfinished Business: The Life & Times of Danny Gatton",Ralph Heibutzki,12.95,087930748X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Goldmine Price Guide To Rock 'N' Roll Memorabilia,Mark Allen Baker,7.95,087341490X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Price.
+Record: "Jones, Spike - Off the Record",Jordan R. Young,-24.95,1593930127,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "King, B.B. - 'Blues Boy': The Life And Music of B.B. King",Sebastian Danchin,4.95,0578060176,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "McGraw, Tim And The Dancehall Doctors",Tim McGraw & Martin Huxley,1.99,074346706X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Year.
+Record: Metallica - Making of Metallica's Metallica,Mick Wall & Malcolm Dome,4.95,1896522343,MRB,25
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Reinhardt, Django",Charles Delaunay,24.95,095062246X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Rock Around the Clock - The Record that Started the Rock Revolution,Jim Dawson,12.95,087930829X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Steely Dan - Complete Guide to Their Music,Brian Sweet,4.95,184449425X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: They Fought The Law - Rock Music Goes To Court,Stan Soocher,4.95,0128647319,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Turn! Turn! Turn! - The '60S Folk-Rock Revolution,Richie Unterberger,12.95,087930703X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Price.
+Record: "Turner, Ike - King of Rhythm",John Collis,-4.95,1904316247,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Archives of the Airwaves, Volume 3",Roger C. Paulson,17.95,159393047X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Year.
+Record: Comic Strips & Comic Books of Radio's Golden Age,Ron Lackmann,16.95,1593930216,MRB,1006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Davis, Sammy Jr. - In Black and White",Wil Haygood,5.95,037540354X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Donovan - Autobiography of Donovan: Hurdy Gurdy Man,Donovan Leitch,5.95,0312352122,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Epstein, Brian - In My Life: Epstein, Brian Story",Debbie Geller,4.95,031228862X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Magical Mystery Tours: My Life With The Beatles,Tony Bramwell,5.95,031233043X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Metallica - Metallica,Ross Halfin,19.95,190339984X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Ono, Yoko - Woman: The Incredible Life of Yoko Ono",Alan Clayson,5.95,184240220X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Punk - The Heebie-Jeebies At CBGB's: A Secret History of Jewish Punk,Steven Lee Beeber,16.95,155652613X,MRB,26
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Rocklopedia Fakebandica,T. Mike Childs,5.95,031232944X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Springsteen, Bruce - Days of Hope and Dreams: Intimate Portrait of Bruce Springsteen",Frank Stefanko,9.95,082308387X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: After The Ball - Pop Music From Rag To Rock,Ian Whitcomb,13.95,087910063X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Beatles - Meet The Beatles: A Cultural History of The Band That Shook Youth, Gender And The World",Steven D. Stark,4.95,006000892X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Billboard Pop Charts 1955-1959,Joel Whitburn,49.95,089820092X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Chess Records - Machers And Rockers,Rich Cohen,5.95,039305280X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Creedence Clearwater Revival - Bad Moon Rising: The Unauthorized History of Creedence Clearwater Revival,Hank Bordowitz,14.95,155652661X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Green, Grant - Rediscovering The Forgotten Genius of Jazz Guitar",Sharony Andrews Green,14.95,087930698X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Harrison, George - I Me Mine",George Harrison & Derek Taylor,14.95,0811859004,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Leaving The 20th Century - The Last Rites of Rock 'N' Roll,Dave Henderson & Howard Johnson,5.95,190279902X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "McRae, Carmen - Miss Jazz",Leslie Gourse,4.95,082307904X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Morrison, Jim - Jim Morrison: Life, Death, Legend",Stephen Davis,4.95,159240099X,MRB,2007,
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Reinhardt, Django - Django: The Life And Music of A Gypsy Legend",Michael Dregni,7.95,019516752X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Rockabilly Legends - They Called It Rockabilly Long Before They Called It Rock And Roll (Includes Bonus DVD),Jerry Naylor & Steve Halliday,26.95,142342042X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Sissle, Noble - Reminiscing With Noble Sissle And Eubie Blake",Robert Kimball & William Bolcom,5.95,081541045X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Waits, Tom - Many Lives of Tom Waits, The",Patrick Humphries,19.95,184449585X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Blues - NPR Curious Listener's Guide To Blues, The",David Evans,5.95,039953072X,MRB,2008
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Falcone, Vincent - Frankly Just Between Us: My Life Conducting Sinatra's Music",Vincent Falcone & Bob Popyk,19.95,063409498X,MRB,2008
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Kinks - All Day And All of The Night,Doug Hinman,19.95,087930765X,MRB,2008
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Doors, The",The Doors & Ben Fong-Torres,14.95,140130303X,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Dylan, Bob - Like A Rolling Stone: Bob Dylan At The Crossroads",Greil Marcus,5.95,158648382X,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Fong-Torres, Ben - Becoming Almost Famous: My Back Pages in Music, Writing, and Life",Ben Fong-Torres,12.95,0879308803,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Go, Girl, Go! - The Women's Revolution In Music",James L. Dickerson,4.95,082567316X,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Hart, Mickey - Songcatchers",Mickey Hart & K.M. Kostyal,6.95,079224107X,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: ISBN length not a 10 or 13 digit.
+Record: "Kessel, Barney - A Jazz Legend",Maurice J. Summerfield,29.95,7.78187E+12,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Richard, Cliff - My Life, My Way",Cliff Richard,24.95,075531588X,MRB,2009
+
+
+File: Old_Time_Radio.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Radio Adventures of Sam Spade,Martin Grams Jr.,17.95,097033107X,OTR,2007
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Bad Price.
+Record: "Baseball - Ott, Mel: The Little Giant of Baseball",Fred Stein,-28.8,9780786406586,SSM,1999
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Bad Price.
+Record: Baseball - Baseball's Other All-Stars,William F. McNeil,-30.95,9780786407842,SSM,2000
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Bad Price.
+Record: Baseball - Base-Ball Ballads,Grantland Rice,-30.95,9780786420384,SSM,2004
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - All-American Girls Professional Baseball League Record Book: Comprehensive Hitting, Fielding and Pitching Statistics",W.C. Madden,39.95,078640597X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - Baseball Players of The 1950s: A Biographical Dictionary of All 1,560 Major Leaguers",Rich Marazzi & Len Fiorito,49.95,078641281X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Baseball - Brooklyn Dodgers Reader,Andrew Paul Mele,34.95,078641913X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Baseball - Business of Baseball,Albert Theodore Powers,24.95,078641426X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - Cuban Baseball: A Statistical History, 1878-1961",Jorge S. Figueredo,67.95,078641250X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - Early Latino Ballplayers In The United States: Major, Minor and Negro Leagues, 1901-1949",Nick C. Wilson,29.95,078642012X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Bad Price.
+Record: "Baseball - Ee-Yah: The Life and Times of Hughie Jennings, Baseball Hall of Famer",Jack Smiles,-24.95,0786422025,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - International League: Year-by-Year Statistics, 1884-1953",Marshall D. Wright,49.95,078642267X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - Lean Years of The Yankees, 1965-1975",Robert W. Cohen,26.95,078641846X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - Mccarthy, Joe: Architect of the Yankee Dynasty",Alan H. Levy,29.95,078641961X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Bad Year.
+Record: "Baseball - Minor League Baseball Standings: All North American Leagues, Through 1999",Benjamin Barrett Sumner,64.95,0786407816,SSM,1005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Baseball - Summer of '64: A Pennant Lost,William A. Cook,27.95,078641216X,SSM,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: "Carney, Art - A Biography",Michael Seth Starr,11.95,1557835659,MTV,1905
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Hitchcock's London: A Reference Guide to Locations,Gary Giblin,19.95,188766467X,MTV,1905
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Modern Amazons: Warrior Women on Screen,Dominique Mainon & James Ursini,19.95,1879103272,MTV,1905
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: You're Not Old Enough Son,Barry Atkinson,19.95,1887664688,MTV,1905
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: Gunsmoke - A Complete History And Analysis of The Legendary Broadcast Series With A Comprehensive Episode - By - Episode Guide To Both The Radio And Television Programs,Suzanne Barabas & Gabor Barabas,85.5,9780899504186,MTV,1990
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: "Horror Film Directors, 1931 - 1990",Dennis Fischer,85.5,9780899506098,MTV,1991
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: "Lewis, Jerry - An Analytical Filmography of The Innovative Comic",James L. Neibaur & Ted Okuda,44.95,9780899509617,MTV,1994
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Encyclopedia of Motion Picture Sound,Marty McGee,-85.5,9780786410231,MTV,2001
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Westerns And American Culture, 1930-1955",R. Philip Loy,-35.95,9780786410767,MTV,2001
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Comical Co - Stars of Television - From Ed Norton To Kramer,Robert Pegg,-39.95,9780786413416,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "De Sica, Vittorio - Director, Actor, Screenwriter",Bert Cardullo,-66.95,9780786411351,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: ISBN length not a 10 or 13 digit.
+Record: "Hayward, Susan - Her Films and Life",Kim R. Holston,29.95,8.78079E+12,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Hitler Filmography - Worldwide Feature Film And Television Miniseries Portrayals, 1940 Through 2000",Charles P. Mitchell,-34.95,9780786445851,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Horror Film Stars, Third Edition",Michael R. Pitts,-39.95,9780786410521,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Stone, Fred - Circus Performer And Musical Comedy Star",Armond Fields,-39.95,9780786411610,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-13.
+Record: Film Industry In Argentina - An Illustrated Cultural History,Jorge Finkielman,44.95,9781786416288,MTV,2003
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Monty Python, Shakespeare and English Renaissance Drama",Darl Larsen,-30.95,9780786415045,MTV,2003
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Vitaphone Films - A Catalogue of The Features And Shorts,Roy Liebman,-85.5,9780786412792,MTV,2003
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: American Martial Arts Film,M. Ray Lott,-44.95,9780786418367,MTV,2004
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Product Placement In Hollywood Films,Kerry Segrave,-35.95,9780786419043,MTV,2004
+
+
+File: Movies_TV.csv.txt
+====================
+Error: ISBN length not a 10 or 13 digit.
+Record: Actors Studio - A History,Shelly Frome,35.95,9.78179E+12,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Billboard's Video Yearbook: 1994,Joel Whitburn,10,089820111X,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Bunuel, Luis - Bunuel",John Baxter,4.95,078670506X,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Cushing, Peter - Autobiography and Past Forgetting",Peter Cushing,16.95,1187664262,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: "Doctor Who Error Finder - Plot, Continuity And Production Mistakes In The Television Series And Films",R.H. Langley,44.95,9780786419906,MTV,205
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Drums O' Terror: Voodoo In The Cinema,Bryan Senn,19.95,1841950931,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Gone with the Wind,Herb Bridges,5.95,067168387X,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Kubrick, Stanley - Seven Films Analyzed",Randy Rasmussen,-35.95,9780786421527,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Roeper, Richard - 10 Sure Signs A Movie Character Is Doomed",Richard Roeper,3.95,078688830X,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Beatty, Warren - Sexiest Man Alive: A Biography of Warren Beatty",Ellis Amburn,5.95,006018566X,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Brando, Marlon - The Way It's Never Been Done Before: My Friendship With Marlon Brando",George Englund,4.95,1160786302,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Brown, Joe E. - Film Comedian and Baseball Buffoon",Wes D. Gerhing,34.95,078642589X,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Chaplin, Charlie - Comic Genius",David Robinson,4.95,0810928842,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Cuban Filmography - 1897 Through 2001,Alfonso J. Garcia Osuna,-49.5,9780786427277,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Garfield, John - The Illustrated Career In Films And On Stage",Patrick J. McGrath,-35.95,9780786428489,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: "Hitchcock, Alfred - It's Only a Movie: Personal Biography",Charlotte Chandler,12.95,1557836922,MTV,2406
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Martin, Dean - Memories Are Made of This: Dean Martin Through His Daughter's Eyes",Deana Martin,5.95,140005043X,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Meat is Murder! An Illustrated Guide to Cannibal Culture,Mikita Brottman,-6.95,1840680407,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Peckinpah, Sam - Films of Sam Peckinpah",Neil Fulwood,16.95,071348733X,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Republic Pictures Checklist,Len D. Martin,34.95,078642740X,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Twelve O'Clock High Logbook,Allan T. Duffin & Paul Matheis,-24.95,159393033X,MTV,2206
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Alley, Kirstie - How To Lose Your Ass And Regain Your Life: Reluctant Confessions of a Big-Butted Star",Kirstie Alley,5.95,159486232X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Moreland, Mantan - Mantan the Funnyman: The Life and Times of Mantan Moreland",Michael H. Price,29.95,188766470X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Peckinpah, Sam - Portrait In Montage",Garner Simmons,13.95,087910273X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Sennett, Mack - Keystone: The Life And Clowns of Mack Sennett",Simon Louvish,7.95,057121276X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "The Incredible World of Spy-Fi - Wild And Crazy Spy Gadgets, Props And Artifacts From TV And The Movies",Danny Biederman,7.95,081184224X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Welles, Orson - Stories of His Life",Peter Conrad,5.95,057121164X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Avengers - On Location,Chris Bentley,19.95,190528747X,MTV,2008
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Googies: Coffeeshop to the Stars, Vol. 2 - The Golden Years",Steve Hayes,16.95,159393307X,MTV,2008
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Mickey Rooney as Archie Bunker and Other TV Casting Almosts,Ted Sennett & Eila Mell,24.95,159393145X,MTV,2008
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Rigg, Diana - Biography",Kathleen Tracy,12.95,193210027X,MTV,2008
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Adventures of Baron Munchhausen,Charles McKeown & Terry Gilliam,6.95,155783041X,MTV,2009
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Hardcastle and McCormick: A Complete Viewer's Guide to the Classic 80s Action Series,Deb Ohlin & Cheri deFonteny & Lynn Walker,27.95,159393324X,MTV,2009
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Hollywood's Made-To-Order Punks - The Complete Film History of The Dead End Kids, Little Tough Guys, East Side Kids and Bowery Boys",Richard Roat,19.95,159393467X,MTV,2009
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Whale's Dracula's Daughter: An Alternate History For Classic Film Monsters,Philip J. Riley,19.95,0593934750,MTV,2009
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Comics Buyer's Guide Standard Catalog of Comic Books,John Jackson Miller & Maggie Thompson & Peter Bickford & Brent Frankenhoff,24.95,087349993X,CCB,2005
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Private Eyes In the Comics,John A. Dinan,9.95,159393002X,CCB,2005
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Bad Price.
+Record: Superman - The Complete History,Lee Daniels,-12.95,0811842312,CCB,2005
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Worlds of Tomorrow - The Amazing Universe of Science Fiction Art,Forrest J. Ackerman & Brad Linaweaver,29.95,188805493X,CCB,2006
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Blondie - The Bumstead Family History,Dean Young & Melena Ryzik,24.95,140160322X,CCB,2007
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Manga Monster Madness,David Okum,16.95,158180606X,CCB,2009
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Comics Buyer's Guide Standard Catalog of Comic Books,John Jackson Miller & Maggie Thompson & Peter Bickford & Brent Frankenhoff,24.95,087349993X,CCB,2005
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Private Eyes In the Comics,John A. Dinan,9.95,159393002X,CCB,2005
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Bad Price.
+Record: Superman - The Complete History,Lee Daniels,-12.95,0811842312,CCB,2005
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Worlds of Tomorrow - The Amazing Universe of Science Fiction Art,Forrest J. Ackerman & Brad Linaweaver,29.95,188805493X,CCB,2006
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Blondie - The Bumstead Family History,Dean Young & Melena Ryzik,24.95,140160322X,CCB,2007
+
+
+File: Cartoons_Comics_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Manga Monster Madness,David Okum,16.95,158180606X,CCB,2009
+
+
+File: Trains_Planes_Automobiles.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Mustang,David Newhardt,4.95,076031389X,TPA,2005
+
+
+File: Trains_Planes_Automobiles.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Retro Ride,Tony Swan,14.95,188805462X,TPA,2005
+
+
+File: Trains_Planes_Automobiles.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Corvette - Definitive Guide To The All-American Sports Car,Andrew Montgomery,14.95,159223061X,TPA,2006
+
+
+File: Trains_Planes_Automobiles.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Mustang,David Newhardt,4.95,076031389X,TPA,2005
+
+
+File: Trains_Planes_Automobiles.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Retro Ride,Tony Swan,14.95,188805462X,TPA,2005
+
+
+File: Trains_Planes_Automobiles.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Corvette - Definitive Guide To The All-American Sports Car,Andrew Montgomery,14.95,159223061X,TPA,2006
+
+
+File: Hobbies_Collectibles_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Christie's Century of Teddy Bears,Leyla Maniera,19.95,082300645X,HCB,2005
+
+
+File: Hobbies_Collectibles_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Monroe, Marilyn Collectibles",Clark Kidder,2.95,038079909X,HCB,2005
+
+
+File: Hobbies_Collectibles_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Antique Trader Collectible Paperback Price Guide,Gary Lovisi,16.95,089689634X,HCB,2009
+
+
+File: Hobbies_Collectibles_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Warman's Coca-Cola Collectibles Identification & Price Guide,Allan Petretti,19.95,0898693111,HCB,2009
+
+
+File: Hobbies_Collectibles_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Christie's Century of Teddy Bears,Leyla Maniera,19.95,082300645X,HCB,2005
+
+
+File: Hobbies_Collectibles_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Monroe, Marilyn Collectibles",Clark Kidder,2.95,038079909X,HCB,2005
+
+
+File: Hobbies_Collectibles_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Antique Trader Collectible Paperback Price Guide,Gary Lovisi,16.95,089689634X,HCB,2009
+
+
+File: Hobbies_Collectibles_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Warman's Coca-Cola Collectibles Identification & Price Guide,Allan Petretti,19.95,0898693111,HCB,2009
+
+
+File: Nostalgia_Eclectic_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Celebrity Skin - Tattoos, Brands, And Body Adornments of The Stars",Jim Gerard,6.95,1160253231,NEB,2005
+
+
+File: Nostalgia_Eclectic_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Zippo - An American Legend,Avi R. Baer & Alexander Neumark,12.95,076240700X,NEB,2005
+
+
+File: Nostalgia_Eclectic_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Uleta Blues & Haikus,Paul Gleason,12.95,0894078146,NEB,2006
+
+
+File: Nostalgia_Eclectic_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Big Shots - The Men Behind The Booze,A.J. Baime & A. J. Baime,4.95,045120980X,NEB,2007
+
+
+File: Nostalgia_Eclectic_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Pees On Earth,Erica Jong & Annie Sprinkle,24.95,157687317X,NEB,2007
+
+
+File: Nostalgia_Eclectic_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Celebrity Skin - Tattoos, Brands, And Body Adornments of The Stars",Jim Gerard,6.95,1160253231,NEB,2005
+
+
+File: Nostalgia_Eclectic_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Zippo - An American Legend,Avi R. Baer & Alexander Neumark,12.95,076240700X,NEB,2005
+
+
+File: Nostalgia_Eclectic_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Uleta Blues & Haikus,Paul Gleason,12.95,0894078146,NEB,2006
+
+
+File: Nostalgia_Eclectic_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Big Shots - The Men Behind The Booze,A.J. Baime & A. J. Baime,4.95,045120980X,NEB,2007
+
+
+File: Nostalgia_Eclectic_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Pees On Earth,Erica Jong & Annie Sprinkle,24.95,157687317X,NEB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Year.
+Record: "Zimbalist, Efrem - A Life",Roy Malan,19.95,1574670913,MRB,1905
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Year.
+Record: "Mingus, Charles - Mingus / Mingus: Two Memoirs",Janet Coleman & Al Young,7.95,0879101490,MRB,1994
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Madonna - Goddess: Inside Madonna,Barbara Victor,4.95,006019930X,MRB,2001
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Price.
+Record: Beatles - Quarrymen,Hunter Davies,-4.95,071198526X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Beatles - Ticket To Ride: Inside The Beatles' 1964 Tour That Changed The World,Larry Kane,5.95,014303426X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Billboard Guide To Progressive Music,Bradley Smith,1.99,0823176652,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Clash - Complete Guide To Their Music,Tony Fletcher,4.95,184449506X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Clash - Return of The Last Gang In Town,Marcus Gray,14.95,063408240X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Gatton, Danny - Unfinished Business: The Life & Times of Danny Gatton",Ralph Heibutzki,12.95,087930748X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Goldmine Price Guide To Rock 'N' Roll Memorabilia,Mark Allen Baker,7.95,087341490X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Price.
+Record: "Jones, Spike - Off the Record",Jordan R. Young,-24.95,1593930127,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "King, B.B. - 'Blues Boy': The Life And Music of B.B. King",Sebastian Danchin,4.95,0578060176,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "McGraw, Tim And The Dancehall Doctors",Tim McGraw & Martin Huxley,1.99,074346706X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Year.
+Record: Metallica - Making of Metallica's Metallica,Mick Wall & Malcolm Dome,4.95,1896522343,MRB,25
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Reinhardt, Django",Charles Delaunay,24.95,095062246X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Rock Around the Clock - The Record that Started the Rock Revolution,Jim Dawson,12.95,087930829X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Steely Dan - Complete Guide to Their Music,Brian Sweet,4.95,184449425X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: They Fought The Law - Rock Music Goes To Court,Stan Soocher,4.95,0128647319,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Turn! Turn! Turn! - The '60S Folk-Rock Revolution,Richie Unterberger,12.95,087930703X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Price.
+Record: "Turner, Ike - King of Rhythm",John Collis,-4.95,1904316247,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Archives of the Airwaves, Volume 3",Roger C. Paulson,17.95,159393047X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Year.
+Record: Comic Strips & Comic Books of Radio's Golden Age,Ron Lackmann,16.95,1593930216,MRB,1006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Davis, Sammy Jr. - In Black and White",Wil Haygood,5.95,037540354X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Donovan - Autobiography of Donovan: Hurdy Gurdy Man,Donovan Leitch,5.95,0312352122,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Epstein, Brian - In My Life: Epstein, Brian Story",Debbie Geller,4.95,031228862X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Magical Mystery Tours: My Life With The Beatles,Tony Bramwell,5.95,031233043X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Metallica - Metallica,Ross Halfin,19.95,190339984X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Ono, Yoko - Woman: The Incredible Life of Yoko Ono",Alan Clayson,5.95,184240220X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Punk - The Heebie-Jeebies At CBGB's: A Secret History of Jewish Punk,Steven Lee Beeber,16.95,155652613X,MRB,26
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Rocklopedia Fakebandica,T. Mike Childs,5.95,031232944X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Springsteen, Bruce - Days of Hope and Dreams: Intimate Portrait of Bruce Springsteen",Frank Stefanko,9.95,082308387X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: After The Ball - Pop Music From Rag To Rock,Ian Whitcomb,13.95,087910063X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Beatles - Meet The Beatles: A Cultural History of The Band That Shook Youth, Gender And The World",Steven D. Stark,4.95,006000892X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Billboard Pop Charts 1955-1959,Joel Whitburn,49.95,089820092X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Chess Records - Machers And Rockers,Rich Cohen,5.95,039305280X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Creedence Clearwater Revival - Bad Moon Rising: The Unauthorized History of Creedence Clearwater Revival,Hank Bordowitz,14.95,155652661X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Green, Grant - Rediscovering The Forgotten Genius of Jazz Guitar",Sharony Andrews Green,14.95,087930698X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Harrison, George - I Me Mine",George Harrison & Derek Taylor,14.95,0811859004,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Leaving The 20th Century - The Last Rites of Rock 'N' Roll,Dave Henderson & Howard Johnson,5.95,190279902X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "McRae, Carmen - Miss Jazz",Leslie Gourse,4.95,082307904X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Morrison, Jim - Jim Morrison: Life, Death, Legend",Stephen Davis,4.95,159240099X,MRB,2007,
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Reinhardt, Django - Django: The Life And Music of A Gypsy Legend",Michael Dregni,7.95,019516752X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Rockabilly Legends - They Called It Rockabilly Long Before They Called It Rock And Roll (Includes Bonus DVD),Jerry Naylor & Steve Halliday,26.95,142342042X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Sissle, Noble - Reminiscing With Noble Sissle And Eubie Blake",Robert Kimball & William Bolcom,5.95,081541045X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Waits, Tom - Many Lives of Tom Waits, The",Patrick Humphries,19.95,184449585X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Blues - NPR Curious Listener's Guide To Blues, The",David Evans,5.95,039953072X,MRB,2008
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Falcone, Vincent - Frankly Just Between Us: My Life Conducting Sinatra's Music",Vincent Falcone & Bob Popyk,19.95,063409498X,MRB,2008
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Kinks - All Day And All of The Night,Doug Hinman,19.95,087930765X,MRB,2008
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Doors, The",The Doors & Ben Fong-Torres,14.95,140130303X,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Dylan, Bob - Like A Rolling Stone: Bob Dylan At The Crossroads",Greil Marcus,5.95,158648382X,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Fong-Torres, Ben - Becoming Almost Famous: My Back Pages in Music, Writing, and Life",Ben Fong-Torres,12.95,0879308803,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Go, Girl, Go! - The Women's Revolution In Music",James L. Dickerson,4.95,082567316X,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Hart, Mickey - Songcatchers",Mickey Hart & K.M. Kostyal,6.95,079224107X,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: ISBN length not a 10 or 13 digit.
+Record: "Kessel, Barney - A Jazz Legend",Maurice J. Summerfield,29.95,7.78187E+12,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Richard, Cliff - My Life, My Way",Cliff Richard,24.95,075531588X,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Year.
+Record: "Zimbalist, Efrem - A Life",Roy Malan,19.95,1574670913,MRB,1905
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Year.
+Record: "Mingus, Charles - Mingus / Mingus: Two Memoirs",Janet Coleman & Al Young,7.95,0879101490,MRB,1994
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Madonna - Goddess: Inside Madonna,Barbara Victor,4.95,006019930X,MRB,2001
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Price.
+Record: Beatles - Quarrymen,Hunter Davies,-4.95,071198526X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Beatles - Ticket To Ride: Inside The Beatles' 1964 Tour That Changed The World,Larry Kane,5.95,014303426X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Billboard Guide To Progressive Music,Bradley Smith,1.99,0823176652,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Clash - Complete Guide To Their Music,Tony Fletcher,4.95,184449506X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Clash - Return of The Last Gang In Town,Marcus Gray,14.95,063408240X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Gatton, Danny - Unfinished Business: The Life & Times of Danny Gatton",Ralph Heibutzki,12.95,087930748X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Goldmine Price Guide To Rock 'N' Roll Memorabilia,Mark Allen Baker,7.95,087341490X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Price.
+Record: "Jones, Spike - Off the Record",Jordan R. Young,-24.95,1593930127,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "King, B.B. - 'Blues Boy': The Life And Music of B.B. King",Sebastian Danchin,4.95,0578060176,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "McGraw, Tim And The Dancehall Doctors",Tim McGraw & Martin Huxley,1.99,074346706X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Year.
+Record: Metallica - Making of Metallica's Metallica,Mick Wall & Malcolm Dome,4.95,1896522343,MRB,25
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Reinhardt, Django",Charles Delaunay,24.95,095062246X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Rock Around the Clock - The Record that Started the Rock Revolution,Jim Dawson,12.95,087930829X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Steely Dan - Complete Guide to Their Music,Brian Sweet,4.95,184449425X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: They Fought The Law - Rock Music Goes To Court,Stan Soocher,4.95,0128647319,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Turn! Turn! Turn! - The '60S Folk-Rock Revolution,Richie Unterberger,12.95,087930703X,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Price.
+Record: "Turner, Ike - King of Rhythm",John Collis,-4.95,1904316247,MRB,2005
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Archives of the Airwaves, Volume 3",Roger C. Paulson,17.95,159393047X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Bad Year.
+Record: Comic Strips & Comic Books of Radio's Golden Age,Ron Lackmann,16.95,1593930216,MRB,1006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Davis, Sammy Jr. - In Black and White",Wil Haygood,5.95,037540354X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Donovan - Autobiography of Donovan: Hurdy Gurdy Man,Donovan Leitch,5.95,0312352122,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Epstein, Brian - In My Life: Epstein, Brian Story",Debbie Geller,4.95,031228862X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Magical Mystery Tours: My Life With The Beatles,Tony Bramwell,5.95,031233043X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Metallica - Metallica,Ross Halfin,19.95,190339984X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Ono, Yoko - Woman: The Incredible Life of Yoko Ono",Alan Clayson,5.95,184240220X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Punk - The Heebie-Jeebies At CBGB's: A Secret History of Jewish Punk,Steven Lee Beeber,16.95,155652613X,MRB,26
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Rocklopedia Fakebandica,T. Mike Childs,5.95,031232944X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Springsteen, Bruce - Days of Hope and Dreams: Intimate Portrait of Bruce Springsteen",Frank Stefanko,9.95,082308387X,MRB,2006
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: After The Ball - Pop Music From Rag To Rock,Ian Whitcomb,13.95,087910063X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Beatles - Meet The Beatles: A Cultural History of The Band That Shook Youth, Gender And The World",Steven D. Stark,4.95,006000892X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Billboard Pop Charts 1955-1959,Joel Whitburn,49.95,089820092X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Chess Records - Machers And Rockers,Rich Cohen,5.95,039305280X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Creedence Clearwater Revival - Bad Moon Rising: The Unauthorized History of Creedence Clearwater Revival,Hank Bordowitz,14.95,155652661X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Green, Grant - Rediscovering The Forgotten Genius of Jazz Guitar",Sharony Andrews Green,14.95,087930698X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Harrison, George - I Me Mine",George Harrison & Derek Taylor,14.95,0811859004,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Leaving The 20th Century - The Last Rites of Rock 'N' Roll,Dave Henderson & Howard Johnson,5.95,190279902X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "McRae, Carmen - Miss Jazz",Leslie Gourse,4.95,082307904X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Morrison, Jim - Jim Morrison: Life, Death, Legend",Stephen Davis,4.95,159240099X,MRB,2007,
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Reinhardt, Django - Django: The Life And Music of A Gypsy Legend",Michael Dregni,7.95,019516752X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Rockabilly Legends - They Called It Rockabilly Long Before They Called It Rock And Roll (Includes Bonus DVD),Jerry Naylor & Steve Halliday,26.95,142342042X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Sissle, Noble - Reminiscing With Noble Sissle And Eubie Blake",Robert Kimball & William Bolcom,5.95,081541045X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Waits, Tom - Many Lives of Tom Waits, The",Patrick Humphries,19.95,184449585X,MRB,2007
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Blues - NPR Curious Listener's Guide To Blues, The",David Evans,5.95,039953072X,MRB,2008
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Falcone, Vincent - Frankly Just Between Us: My Life Conducting Sinatra's Music",Vincent Falcone & Bob Popyk,19.95,063409498X,MRB,2008
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Kinks - All Day And All of The Night,Doug Hinman,19.95,087930765X,MRB,2008
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Doors, The",The Doors & Ben Fong-Torres,14.95,140130303X,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Dylan, Bob - Like A Rolling Stone: Bob Dylan At The Crossroads",Greil Marcus,5.95,158648382X,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Fong-Torres, Ben - Becoming Almost Famous: My Back Pages in Music, Writing, and Life",Ben Fong-Torres,12.95,0879308803,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Go, Girl, Go! - The Women's Revolution In Music",James L. Dickerson,4.95,082567316X,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Hart, Mickey - Songcatchers",Mickey Hart & K.M. Kostyal,6.95,079224107X,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: ISBN length not a 10 or 13 digit.
+Record: "Kessel, Barney - A Jazz Legend",Maurice J. Summerfield,29.95,7.78187E+12,MRB,2009
+
+
+File: Music_Radio_Books.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Richard, Cliff - My Life, My Way",Cliff Richard,24.95,075531588X,MRB,2009
+
+
+File: Old_Time_Radio.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Radio Adventures of Sam Spade,Martin Grams Jr.,17.95,097033107X,OTR,2007
+
+
+File: Old_Time_Radio.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Radio Adventures of Sam Spade,Martin Grams Jr.,17.95,097033107X,OTR,2007
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Bad Price.
+Record: "Baseball - Ott, Mel: The Little Giant of Baseball",Fred Stein,-28.8,9780786406586,SSM,1999
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Bad Price.
+Record: Baseball - Baseball's Other All-Stars,William F. McNeil,-30.95,9780786407842,SSM,2000
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Bad Price.
+Record: Baseball - Base-Ball Ballads,Grantland Rice,-30.95,9780786420384,SSM,2004
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - All-American Girls Professional Baseball League Record Book: Comprehensive Hitting, Fielding and Pitching Statistics",W.C. Madden,39.95,078640597X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - Baseball Players of The 1950s: A Biographical Dictionary of All 1,560 Major Leaguers",Rich Marazzi & Len Fiorito,49.95,078641281X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Baseball - Brooklyn Dodgers Reader,Andrew Paul Mele,34.95,078641913X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Baseball - Business of Baseball,Albert Theodore Powers,24.95,078641426X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - Cuban Baseball: A Statistical History, 1878-1961",Jorge S. Figueredo,67.95,078641250X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - Early Latino Ballplayers In The United States: Major, Minor and Negro Leagues, 1901-1949",Nick C. Wilson,29.95,078642012X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Bad Price.
+Record: "Baseball - Ee-Yah: The Life and Times of Hughie Jennings, Baseball Hall of Famer",Jack Smiles,-24.95,0786422025,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - International League: Year-by-Year Statistics, 1884-1953",Marshall D. Wright,49.95,078642267X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - Lean Years of The Yankees, 1965-1975",Robert W. Cohen,26.95,078641846X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - Mccarthy, Joe: Architect of the Yankee Dynasty",Alan H. Levy,29.95,078641961X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Bad Year.
+Record: "Baseball - Minor League Baseball Standings: All North American Leagues, Through 1999",Benjamin Barrett Sumner,64.95,0786407816,SSM,1005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Baseball - Summer of '64: A Pennant Lost,William A. Cook,27.95,078641216X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Bad Price.
+Record: "Baseball - Ott, Mel: The Little Giant of Baseball",Fred Stein,-28.8,9780786406586,SSM,1999
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Bad Price.
+Record: Baseball - Baseball's Other All-Stars,William F. McNeil,-30.95,9780786407842,SSM,2000
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Bad Price.
+Record: Baseball - Base-Ball Ballads,Grantland Rice,-30.95,9780786420384,SSM,2004
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - All-American Girls Professional Baseball League Record Book: Comprehensive Hitting, Fielding and Pitching Statistics",W.C. Madden,39.95,078640597X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - Baseball Players of The 1950s: A Biographical Dictionary of All 1,560 Major Leaguers",Rich Marazzi & Len Fiorito,49.95,078641281X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Baseball - Brooklyn Dodgers Reader,Andrew Paul Mele,34.95,078641913X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Baseball - Business of Baseball,Albert Theodore Powers,24.95,078641426X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - Cuban Baseball: A Statistical History, 1878-1961",Jorge S. Figueredo,67.95,078641250X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - Early Latino Ballplayers In The United States: Major, Minor and Negro Leagues, 1901-1949",Nick C. Wilson,29.95,078642012X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Bad Price.
+Record: "Baseball - Ee-Yah: The Life and Times of Hughie Jennings, Baseball Hall of Famer",Jack Smiles,-24.95,0786422025,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - International League: Year-by-Year Statistics, 1884-1953",Marshall D. Wright,49.95,078642267X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - Lean Years of The Yankees, 1965-1975",Robert W. Cohen,26.95,078641846X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Baseball - Mccarthy, Joe: Architect of the Yankee Dynasty",Alan H. Levy,29.95,078641961X,SSM,2005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Bad Year.
+Record: "Baseball - Minor League Baseball Standings: All North American Leagues, Through 1999",Benjamin Barrett Sumner,64.95,0786407816,SSM,1005
+
+
+File: Sports_Sports_Memorabilia.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Baseball - Summer of '64: A Pennant Lost,William A. Cook,27.95,078641216X,SSM,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: "Carney, Art - A Biography",Michael Seth Starr,11.95,1557835659,MTV,1905
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Hitchcock's London: A Reference Guide to Locations,Gary Giblin,19.95,188766467X,MTV,1905
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Modern Amazons: Warrior Women on Screen,Dominique Mainon & James Ursini,19.95,1879103272,MTV,1905
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: You're Not Old Enough Son,Barry Atkinson,19.95,1887664688,MTV,1905
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: Gunsmoke - A Complete History And Analysis of The Legendary Broadcast Series With A Comprehensive Episode - By - Episode Guide To Both The Radio And Television Programs,Suzanne Barabas & Gabor Barabas,85.5,9780899504186,MTV,1990
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: "Horror Film Directors, 1931 - 1990",Dennis Fischer,85.5,9780899506098,MTV,1991
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: "Lewis, Jerry - An Analytical Filmography of The Innovative Comic",James L. Neibaur & Ted Okuda,44.95,9780899509617,MTV,1994
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Encyclopedia of Motion Picture Sound,Marty McGee,-85.5,9780786410231,MTV,2001
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Westerns And American Culture, 1930-1955",R. Philip Loy,-35.95,9780786410767,MTV,2001
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Comical Co - Stars of Television - From Ed Norton To Kramer,Robert Pegg,-39.95,9780786413416,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "De Sica, Vittorio - Director, Actor, Screenwriter",Bert Cardullo,-66.95,9780786411351,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: ISBN length not a 10 or 13 digit.
+Record: "Hayward, Susan - Her Films and Life",Kim R. Holston,29.95,8.78079E+12,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Hitler Filmography - Worldwide Feature Film And Television Miniseries Portrayals, 1940 Through 2000",Charles P. Mitchell,-34.95,9780786445851,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Horror Film Stars, Third Edition",Michael R. Pitts,-39.95,9780786410521,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Stone, Fred - Circus Performer And Musical Comedy Star",Armond Fields,-39.95,9780786411610,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-13.
+Record: Film Industry In Argentina - An Illustrated Cultural History,Jorge Finkielman,44.95,9781786416288,MTV,2003
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Monty Python, Shakespeare and English Renaissance Drama",Darl Larsen,-30.95,9780786415045,MTV,2003
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Vitaphone Films - A Catalogue of The Features And Shorts,Roy Liebman,-85.5,9780786412792,MTV,2003
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: American Martial Arts Film,M. Ray Lott,-44.95,9780786418367,MTV,2004
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Product Placement In Hollywood Films,Kerry Segrave,-35.95,9780786419043,MTV,2004
+
+
+File: Movies_TV.csv.txt
+====================
+Error: ISBN length not a 10 or 13 digit.
+Record: Actors Studio - A History,Shelly Frome,35.95,9.78179E+12,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Billboard's Video Yearbook: 1994,Joel Whitburn,10,089820111X,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Bunuel, Luis - Bunuel",John Baxter,4.95,078670506X,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Cushing, Peter - Autobiography and Past Forgetting",Peter Cushing,16.95,1187664262,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: "Doctor Who Error Finder - Plot, Continuity And Production Mistakes In The Television Series And Films",R.H. Langley,44.95,9780786419906,MTV,205
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Drums O' Terror: Voodoo In The Cinema,Bryan Senn,19.95,1841950931,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Gone with the Wind,Herb Bridges,5.95,067168387X,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Kubrick, Stanley - Seven Films Analyzed",Randy Rasmussen,-35.95,9780786421527,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Roeper, Richard - 10 Sure Signs A Movie Character Is Doomed",Richard Roeper,3.95,078688830X,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Beatty, Warren - Sexiest Man Alive: A Biography of Warren Beatty",Ellis Amburn,5.95,006018566X,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Brando, Marlon - The Way It's Never Been Done Before: My Friendship With Marlon Brando",George Englund,4.95,1160786302,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Brown, Joe E. - Film Comedian and Baseball Buffoon",Wes D. Gerhing,34.95,078642589X,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Chaplin, Charlie - Comic Genius",David Robinson,4.95,0810928842,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Cuban Filmography - 1897 Through 2001,Alfonso J. Garcia Osuna,-49.5,9780786427277,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Garfield, John - The Illustrated Career In Films And On Stage",Patrick J. McGrath,-35.95,9780786428489,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: "Hitchcock, Alfred - It's Only a Movie: Personal Biography",Charlotte Chandler,12.95,1557836922,MTV,2406
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Martin, Dean - Memories Are Made of This: Dean Martin Through His Daughter's Eyes",Deana Martin,5.95,140005043X,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Meat is Murder! An Illustrated Guide to Cannibal Culture,Mikita Brottman,-6.95,1840680407,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Peckinpah, Sam - Films of Sam Peckinpah",Neil Fulwood,16.95,071348733X,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Republic Pictures Checklist,Len D. Martin,34.95,078642740X,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Twelve O'Clock High Logbook,Allan T. Duffin & Paul Matheis,-24.95,159393033X,MTV,2206
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Alley, Kirstie - How To Lose Your Ass And Regain Your Life: Reluctant Confessions of a Big-Butted Star",Kirstie Alley,5.95,159486232X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Moreland, Mantan - Mantan the Funnyman: The Life and Times of Mantan Moreland",Michael H. Price,29.95,188766470X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Peckinpah, Sam - Portrait In Montage",Garner Simmons,13.95,087910273X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Sennett, Mack - Keystone: The Life And Clowns of Mack Sennett",Simon Louvish,7.95,057121276X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "The Incredible World of Spy-Fi - Wild And Crazy Spy Gadgets, Props And Artifacts From TV And The Movies",Danny Biederman,7.95,081184224X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Welles, Orson - Stories of His Life",Peter Conrad,5.95,057121164X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Avengers - On Location,Chris Bentley,19.95,190528747X,MTV,2008
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Googies: Coffeeshop to the Stars, Vol. 2 - The Golden Years",Steve Hayes,16.95,159393307X,MTV,2008
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Mickey Rooney as Archie Bunker and Other TV Casting Almosts,Ted Sennett & Eila Mell,24.95,159393145X,MTV,2008
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Rigg, Diana - Biography",Kathleen Tracy,12.95,193210027X,MTV,2008
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Adventures of Baron Munchhausen,Charles McKeown & Terry Gilliam,6.95,155783041X,MTV,2009
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Hardcastle and McCormick: A Complete Viewer's Guide to the Classic 80s Action Series,Deb Ohlin & Cheri deFonteny & Lynn Walker,27.95,159393324X,MTV,2009
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Hollywood's Made-To-Order Punks - The Complete Film History of The Dead End Kids, Little Tough Guys, East Side Kids and Bowery Boys",Richard Roat,19.95,159393467X,MTV,2009
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Whale's Dracula's Daughter: An Alternate History For Classic Film Monsters,Philip J. Riley,19.95,0593934750,MTV,2009
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: "Carney, Art - A Biography",Michael Seth Starr,11.95,1557835659,MTV,1905
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Hitchcock's London: A Reference Guide to Locations,Gary Giblin,19.95,188766467X,MTV,1905
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Modern Amazons: Warrior Women on Screen,Dominique Mainon & James Ursini,19.95,1879103272,MTV,1905
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: You're Not Old Enough Son,Barry Atkinson,19.95,1887664688,MTV,1905
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: Gunsmoke - A Complete History And Analysis of The Legendary Broadcast Series With A Comprehensive Episode - By - Episode Guide To Both The Radio And Television Programs,Suzanne Barabas & Gabor Barabas,85.5,9780899504186,MTV,1990
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: "Horror Film Directors, 1931 - 1990",Dennis Fischer,85.5,9780899506098,MTV,1991
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: "Lewis, Jerry - An Analytical Filmography of The Innovative Comic",James L. Neibaur & Ted Okuda,44.95,9780899509617,MTV,1994
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Encyclopedia of Motion Picture Sound,Marty McGee,-85.5,9780786410231,MTV,2001
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Westerns And American Culture, 1930-1955",R. Philip Loy,-35.95,9780786410767,MTV,2001
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Comical Co - Stars of Television - From Ed Norton To Kramer,Robert Pegg,-39.95,9780786413416,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "De Sica, Vittorio - Director, Actor, Screenwriter",Bert Cardullo,-66.95,9780786411351,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: ISBN length not a 10 or 13 digit.
+Record: "Hayward, Susan - Her Films and Life",Kim R. Holston,29.95,8.78079E+12,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Hitler Filmography - Worldwide Feature Film And Television Miniseries Portrayals, 1940 Through 2000",Charles P. Mitchell,-34.95,9780786445851,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Horror Film Stars, Third Edition",Michael R. Pitts,-39.95,9780786410521,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Stone, Fred - Circus Performer And Musical Comedy Star",Armond Fields,-39.95,9780786411610,MTV,2002
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-13.
+Record: Film Industry In Argentina - An Illustrated Cultural History,Jorge Finkielman,44.95,9781786416288,MTV,2003
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Monty Python, Shakespeare and English Renaissance Drama",Darl Larsen,-30.95,9780786415045,MTV,2003
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Vitaphone Films - A Catalogue of The Features And Shorts,Roy Liebman,-85.5,9780786412792,MTV,2003
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: American Martial Arts Film,M. Ray Lott,-44.95,9780786418367,MTV,2004
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Product Placement In Hollywood Films,Kerry Segrave,-35.95,9780786419043,MTV,2004
+
+
+File: Movies_TV.csv.txt
+====================
+Error: ISBN length not a 10 or 13 digit.
+Record: Actors Studio - A History,Shelly Frome,35.95,9.78179E+12,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Billboard's Video Yearbook: 1994,Joel Whitburn,10,089820111X,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Bunuel, Luis - Bunuel",John Baxter,4.95,078670506X,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Cushing, Peter - Autobiography and Past Forgetting",Peter Cushing,16.95,1187664262,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: "Doctor Who Error Finder - Plot, Continuity And Production Mistakes In The Television Series And Films",R.H. Langley,44.95,9780786419906,MTV,205
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Drums O' Terror: Voodoo In The Cinema,Bryan Senn,19.95,1841950931,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Gone with the Wind,Herb Bridges,5.95,067168387X,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Kubrick, Stanley - Seven Films Analyzed",Randy Rasmussen,-35.95,9780786421527,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Roeper, Richard - 10 Sure Signs A Movie Character Is Doomed",Richard Roeper,3.95,078688830X,MTV,2005
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Beatty, Warren - Sexiest Man Alive: A Biography of Warren Beatty",Ellis Amburn,5.95,006018566X,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Brando, Marlon - The Way It's Never Been Done Before: My Friendship With Marlon Brando",George Englund,4.95,1160786302,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Brown, Joe E. - Film Comedian and Baseball Buffoon",Wes D. Gerhing,34.95,078642589X,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Chaplin, Charlie - Comic Genius",David Robinson,4.95,0810928842,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Cuban Filmography - 1897 Through 2001,Alfonso J. Garcia Osuna,-49.5,9780786427277,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: "Garfield, John - The Illustrated Career In Films And On Stage",Patrick J. McGrath,-35.95,9780786428489,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Year.
+Record: "Hitchcock, Alfred - It's Only a Movie: Personal Biography",Charlotte Chandler,12.95,1557836922,MTV,2406
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Martin, Dean - Memories Are Made of This: Dean Martin Through His Daughter's Eyes",Deana Martin,5.95,140005043X,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Meat is Murder! An Illustrated Guide to Cannibal Culture,Mikita Brottman,-6.95,1840680407,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Peckinpah, Sam - Films of Sam Peckinpah",Neil Fulwood,16.95,071348733X,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Republic Pictures Checklist,Len D. Martin,34.95,078642740X,MTV,2006
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Bad Price.
+Record: Twelve O'Clock High Logbook,Allan T. Duffin & Paul Matheis,-24.95,159393033X,MTV,2206
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Alley, Kirstie - How To Lose Your Ass And Regain Your Life: Reluctant Confessions of a Big-Butted Star",Kirstie Alley,5.95,159486232X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Moreland, Mantan - Mantan the Funnyman: The Life and Times of Mantan Moreland",Michael H. Price,29.95,188766470X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Peckinpah, Sam - Portrait In Montage",Garner Simmons,13.95,087910273X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Sennett, Mack - Keystone: The Life And Clowns of Mack Sennett",Simon Louvish,7.95,057121276X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "The Incredible World of Spy-Fi - Wild And Crazy Spy Gadgets, Props And Artifacts From TV And The Movies",Danny Biederman,7.95,081184224X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Welles, Orson - Stories of His Life",Peter Conrad,5.95,057121164X,MTV,2007
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Avengers - On Location,Chris Bentley,19.95,190528747X,MTV,2008
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Googies: Coffeeshop to the Stars, Vol. 2 - The Golden Years",Steve Hayes,16.95,159393307X,MTV,2008
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Mickey Rooney as Archie Bunker and Other TV Casting Almosts,Ted Sennett & Eila Mell,24.95,159393145X,MTV,2008
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Rigg, Diana - Biography",Kathleen Tracy,12.95,193210027X,MTV,2008
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Adventures of Baron Munchhausen,Charles McKeown & Terry Gilliam,6.95,155783041X,MTV,2009
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Hardcastle and McCormick: A Complete Viewer's Guide to the Classic 80s Action Series,Deb Ohlin & Cheri deFonteny & Lynn Walker,27.95,159393324X,MTV,2009
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: "Hollywood's Made-To-Order Punks - The Complete Film History of The Dead End Kids, Little Tough Guys, East Side Kids and Bowery Boys",Richard Roat,19.95,159393467X,MTV,2009
+
+
+File: Movies_TV.csv.txt
+====================
+Error: Invalid ISBN-10.
+Record: Whale's Dracula's Daughter: An Alternate History For Classic Film Monsters,Philip J. Riley,19.95,0593934750,MTV,2009
+
+

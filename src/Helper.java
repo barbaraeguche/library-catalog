@@ -39,7 +39,7 @@ public class Helper {
         validErrorFiles.put("SEM", errorFiles + "semanticError.txt");
     }
     
-    protected final List<Map<String, String>> toDelete = new ArrayList<>(); {
+    protected static final List<Map<String, String>> toDelete = new ArrayList<>(); {
         toDelete.add(validSyntaxFiles);
         toDelete.add(validSemanticFiles);
         toDelete.add(validErrorFiles);
@@ -72,12 +72,23 @@ public class Helper {
      * this method opens the stream for all the file objects.
      * @param file the file to write to.
      * @param toWrite the message to write.
-     * @throws FileNotFoundException if the file cannot be found.
      */
-    protected void openWriter(String file, String toWrite) throws FileNotFoundException {
-        PrintWriter printWriter = new PrintWriter(new FileOutputStream(file, true));
-        printWriter.println(toWrite);
-        printWriter.close();
+    protected void openWriter(String file, String toWrite) {
+        File outputFile = new File(file);
+        File directory = outputFile.getParentFile();
+
+        //ensure the directory exists; create it if it doesn't
+        if(!directory.exists()) {
+            directory.mkdirs();
+        }
+
+        //create the file if it doesn't exist
+        try(PrintWriter printWriter = new PrintWriter(new FileOutputStream(outputFile, true))) {
+            printWriter.println(toWrite);
+            printWriter.flush();
+        } catch(FileNotFoundException e) {
+            System.out.printf("Failed to create or write to file: %s.%n", outputFile.getPath());
+        }
     }
 
     /**
@@ -86,10 +97,17 @@ public class Helper {
      * @param array an array of book objects to serialize.
      */
     protected void serializeAll(String file, List<Book> array) {
-        try(ObjectOutputStream outStream = new ObjectOutputStream(new FileOutputStream(file))) {
+        File outputFile = new File(file);
+        File directory = outputFile.getParentFile();
+
+        //ensure the directory exists; create it if it doesn't
+        if(!directory.exists()) {
+            directory.mkdirs();
+        }
+
+        try(ObjectOutputStream outStream = new ObjectOutputStream(new FileOutputStream(outputFile))) {
             outStream.writeObject(array);
             outStream.flush();
-            outStream.close();
         } catch(IOException io) {
             System.err.printf("The %s arraylist was not serialized.%n", array);
         }
@@ -124,7 +142,7 @@ public class Helper {
         if(window > 0) {
             try {
                 for(int idx = current; idx < current + window; idx++) {
-                    System.out.println(bookArray.get(idx));
+                    System.out.print(bookArray.get(idx));
                     index = idx;
                 }
                 current = index;
@@ -141,12 +159,12 @@ public class Helper {
                     System.out.println("You are at the beginning of this catalog.");
                     
                     for(int idx = 0; idx <= current; idx++) {
-                        System.out.println(bookArray.get(idx));
+                        System.out.print(bookArray.get(idx));
                         index = 0;
                     }
                 } else {
                     for(int idx = number; idx <= current; idx++) {
-                        System.out.println(bookArray.get(idx));
+                        System.out.print(bookArray.get(idx));
                         index = number;
                     }
                 }
@@ -163,7 +181,7 @@ public class Helper {
     /**
      * this method deletes all the textfiles used in this program.
      */
-    protected void deleteFiles() {
+    protected static void deleteFiles() {
         for(Map<String, String> map: toDelete) {
             for(String path: map.values()) {
                 (new File(path)).delete();

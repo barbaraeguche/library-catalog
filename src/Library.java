@@ -6,9 +6,9 @@ public class Library {
     public static void main(String[] args) {
         Catalog catalog = new Catalog();
 
-        // catalog.validateSyntaxAndPartition();
-        // catalog.validateSemanticsAndSerialize();
-        // catalog.deserializeAndNavigateCatalog();
+        catalog.validateSyntaxAndPartition();
+        catalog.validateSemanticsAndSerialize();
+        catalog.deserializeAndNavigateCatalog();
 
         //total syntax and semantic errors
         int syntaxErrors = Helper.tooFewFields + Helper.tooManyFields + Helper.unknownGenre + Helper.missingFields;
@@ -24,7 +24,7 @@ public class Library {
             Total Semantic Errors: %d.
                 ----------------
             Total TooFewFields Errors: %d.
-            Total MissingField Errors: %d.
+            Total TooManyFields Errors: %d.
             Total MissingField Errors: %d.
             Total InvalidGenre Errors: %d.
                 ----------------
@@ -39,6 +39,6 @@ public class Library {
         //displays the closing message
         System.out.print("\nGood bye for now, hope to see you sometime soon!!!");
         //delete the files
-        (new Helper()).deleteFiles();
+        Helper.deleteFiles();
     }
 }
