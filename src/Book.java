@@ -173,7 +173,7 @@ public class Book implements Serializable {
      */
     @Override
     public String toString() {
-        return String.format("\"%s\", %s, %.2f, %s, %s, %d.%n", this.title, this.author, this.price, this.isbn, this.genre, this.year);
+        return String.format("'%s\", %s, %.2f, %s, %s, %d.%n", this.title, this.author, this.price, this.isbn, this.genre, this.year);
     }
 
     /**
