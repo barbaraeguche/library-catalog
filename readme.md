@@ -33,13 +33,16 @@ java Library
   <summary>showcase</summary>
 
   - **main menu**
+  <img width="1145" alt="main-menu-1" src="https://github.com/user-attachments/assets/dfdc24b5-89fa-4d64-995d-6afaa85cea72">
+  <img width="1145" alt="main-menu-2" src="https://github.com/user-attachments/assets/51c8f424-8ab4-423f-9452-00e4478d51e1">
 
   - **sub menu**
+  <img width="1145" alt="sub-menu" src="https://github.com/user-attachments/assets/388d42c9-e7f3-4ac5-be4a-449e3a88f69b">
 
-  - **positive integer input**
-  
-  - **negative integer input**
+  - **integer inputs**
+  <img width="1145" alt="int-inputs" src="https://github.com/user-attachments/assets/f2927474-0afa-4737-816c-52841de9294a">
 
   - **catalog details**
+  <img width="1145" alt="details" src="https://github.com/user-attachments/assets/5c7f4e23-be51-4ed0-8885-964588905074">
 
 </details>
